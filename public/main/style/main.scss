@@ -1,7 +1,9 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
-$primary: #000080;
-$secondary: #007FFF;
+$primary: #1FB622;
+$secondary: #000080;
+$info: #007FFF;
+$warning: #F0C004;
 
 // Include any default variable overrides here (though functions won’t be available)
 // _custom.scss
@@ -85,3 +87,48 @@ $secondary: #007FFF;
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.navbar_container {
+    border: 3px solid $blue !important;
+}
+
+.intro_container{
+	background-image: url('../images/intro_section/intro_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+    height: 70vh;
+}
+
+
+.intro-line {
+	height: 6px;        
+	background-color:#fff; 
+	width: 60%;         
+	margin: 20px auto;     
+}
+
+.intro-feature{
+    width: 61%;
+}
+
+.sep-line {
+	height: 18px;        
+	background-color: $info; 
+	width: 100%;         
+	margin: 6% auto 2% auto;     
+}
+
+.about_container{
+	background-image: url('../images/about_section/aboutbg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+    height: 120vh;
+}
+
+span{
+    color: $primary;
+}
