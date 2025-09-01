@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="../../public/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../../public/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
 
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
     <!-- Java Script Connection -->
     <script src="../../public/main/script/bootstrap.bundle.min.js"></script> 
     <script src="../../public/node_modules/jquery/dist/jquery.min.js"></script>
@@ -18,6 +21,24 @@
     
 </head>
 <body>
+    <!-- Navbar Section -->
+    <?php include 'components/navbar.php'?>
+
+    <!-- Introduction Section -->
+    <section id="intro_section" class="overflow-hidden">
+        <?php include 'components/intro.php'?>
+    </section>
+
+    <div class="sep-line"></div>
+
+    <!-- About us Section -->
+    <section id="about_section" >
+        <?php include 'components/about.php'?>
+    </section>
+
+
+    <?php include 'contactus.php'; ?>
+    <?php include 'footer.php'; ?>
     <section id="services">
         <?php include 'services.php'; ?>
     </section>

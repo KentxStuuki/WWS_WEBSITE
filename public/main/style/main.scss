@@ -1,14 +1,140 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
+$primary: #1FB622;
+$secondary: #000080;
+$info: #007FFF;
+$warning: #F0C004;
+
 // Include any default variable overrides here (though functions won’t be available)
 // _custom.scss
 
+/* 📱 Mobile Responsiveness */
+@media (max-width: 992px) {
+    /* Contact Section */
+    .contact-section h2 {
+        font-size: 2.2rem;
+    }
+
+    /* Contact Form & Map stack vertically */
+    .d-flex.flex-lg-row {
+        flex-direction: column !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    /* Center the map container */
+    .feedback-card {
+        min-width: 100% !important;
+        height: 400px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto; /* Centers the card */
+        background-size: cover !important; /* Make bg image cover fully */
+        background-position: center !important;
+    }
+
+    /* Map full width */
+    iframe {
+        width: 100% !important; /* Full width on mobile */
+        height: 400px !important;
+        border-radius: 10px;
+        
+    }
+
+    /* Connect Cards stack on small screens */
+    .contact-section .d-flex.gap-3 {
+        flex-direction: column;
+        gap: 1.5rem !important;
+    }
+
+    .contact-section .card {
+        width: 100%;
+    }
+
+    /* Footer adjustments */
+    footer .row {
+        text-align: center;
+    }
+
+    footer .d-flex {
+        justify-content: center !important;
+    }
+
+    footer .col-6 {
+        width: 100% !important;
+    }
+}
+
+/* 📱 Extra Small Screens (<=576px) */
+@media (max-width: 576px) {
+    .contact-section h2 {
+        font-size: 2rem;
+    }
+
+    .connect-title {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+
+    .card img {
+        max-width: 50px !important;
+    }
+
+    footer .d-flex.gap-3 img {
+        max-width: 35px !important;
+    }
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 $font-family-sans-serif: "Poppins", sans-serif;
 $heading-font: 'Lora', serif;
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+.navbar_container {
+    border: 3px solid $blue !important;
+}
+
+.intro_container{
+	background-image: url('../images/intro_section/intro_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+    height: 70vh;
+}
+
+
+.intro-line {
+	height: 6px;        
+	background-color:#fff; 
+	width: 60%;         
+	margin: 20px auto;     
+}
+
+.intro-feature{
+    width: 61%;
+}
+
+.sep-line {
+	height: 18px;        
+	background-color: $info; 
+	width: 100%;         
+	margin: 6% auto 2% auto;     
+}
+
+.about_container{
+	background-image: url('../images/about_section/aboutbg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+    height: 120vh;
+}
+
+span{
+    color: $primary;
+}
 /* Custom navigation of carousels */
     .custom-nav {
     position: absolute;
