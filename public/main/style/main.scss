@@ -1,0 +1,10 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+$primary: #08ff39;
+$secondary: #00A859;
+
+// Include any default variable overrides here (though functions won’t be available)
+// _custom.scss
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
