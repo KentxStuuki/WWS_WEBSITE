@@ -1,10 +1,66 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
-$primary: #08ff39;
-$secondary: #00A859;
-
 // Include any default variable overrides here (though functions won’t be available)
 // _custom.scss
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+$font-family-sans-serif: "Poppins", sans-serif;
+$heading-font: 'Lora', serif;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
+/* Custom navigation of carousels */
+    .custom-nav {
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    right: -2%;
+    }
+    .custom-nav .owl-prev,
+    .custom-nav .owl-next {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;    
+    color: inherit;
+    background: #F0C004;
+    border: none;
+    z-index: 100;
+    }
+
+    .custom-nav .owl-prev {
+    left: 0;
+    }
+
+    .custom-nav .owl-next {
+    right: 0;
+    }
+    .testimonial-custom-nav .owl-prev,
+    .testimonial-custom-nav .owl-next {
+    height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    border-radius: 5px;    
+    color: inherit;
+    background: #007FFF;
+    border: none;
+    z-index: 100;
+    }
+
+    //FOR CAROUSEL HIGHLIGHT
+    .owl-item.highlight .item{
+    background: #F0C004 !important;
+    color: white !important;
+    transition: ease-in .3s;
+    }
+
+    .owl-item.highlight .item button {
+        background: white !important;
+        color: #F0C004 !important;
+    }
+
+    @media (max-width: 992px) {
+    .custom-nav, .testimonial-custom-nav {
+        display: none;
+    }
+    }
