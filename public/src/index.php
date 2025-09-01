@@ -18,6 +18,7 @@
     
 </head>
 <body>
-    <h1 class="text-primary">HELLO WORLD</h1>
+    <?php include 'contactus.php'; ?>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
