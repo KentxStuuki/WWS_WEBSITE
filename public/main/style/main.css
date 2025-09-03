@@ -12102,7 +12102,15 @@ span {
     display: none;
   }
 }
-/* 📱 Mobile Responsiveness */
+.contact-section .form-control {
+  border: 1px solid #007FFF !important;
+}
+.contact-section .form-control:focus {
+  border-color: #007FFF;
+  box-shadow: 0 0 0 0.2rem rgba(31, 182, 34, 0.25);
+}
+
+/* Mobile Responsiveness */
 @media (max-width: 992px) {
   /* Contact Section */
   .contact-section h2, .contact-section .h2 {

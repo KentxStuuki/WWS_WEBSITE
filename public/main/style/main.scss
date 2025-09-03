@@ -4,7 +4,6 @@ $primary: #1FB622;
 $secondary: #000080;
 $info: #007FFF;
 $warning: #F0C004;
-
 // Include any default variable overrides here (though functions won’t be available)
 // _custom.scss
 
@@ -41,7 +40,6 @@ $heading-font: 'Lora', serif;
     }
   }
 }
-
 
 .intro_container{
 	background-image: url('../images/intro_section/intro_bg.jpg');
@@ -138,8 +136,18 @@ span{
         display: none;
     }
 }
+.contact-section {
+  .form-control {
+    border: 1px solid $info !important;
     
-/* 📱 Mobile Responsiveness */
+    &:focus {
+      border-color: $info;
+      box-shadow: 0 0 0 0.2rem rgba($primary, .25);
+    }
+  }
+}
+
+/* Mobile Responsiveness */
 @media (max-width: 992px) {
     /* Contact Section */
     .contact-section h2 {

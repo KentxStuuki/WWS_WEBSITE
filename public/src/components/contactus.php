@@ -27,10 +27,11 @@
     }
 
     .card:hover {
-        background-color: var(--bs-secondary);
+        background-color: var(--bs-info);
         color: white;
         transform: translateY(-5px);
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        border:none;
     }
 
 /* Ensure specific text elements inside also turn white */
@@ -61,8 +62,8 @@
     <div class="container mt-5">
         <div class="d-flex flex-column flex-lg-row gap-5 mt-4 ps-5 pe-5">
             <!-- Contact Form -->
-            <div class="flex-fill text-secondary" >
-                <h1>Contact Us</h1>
+            <div class="flex-fill text-dark">
+                <h1 class="flex-fill text-info fw-bold">Contact Us</h1>
                 <p class="fs-5">
                     Have questions or need assistance? We're here to help! Reach out to us anytime and our team will glad to connect with you.
                 </p>
@@ -95,7 +96,7 @@
                     </div>
 
                     <div class="col-12 py-3 text-center">
-                        <button type="submit" class="btn btn-secondary w-50 text-white">Send</button>
+                        <button type="submit" class="btn btn-info w-50 text-white">Send</button>
                     </div>
                 </form>
             </div>
@@ -106,10 +107,11 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.9712648557!2d-122.4191946!3d37.6498796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f79a36fc7894d%3A0x65916de1a2ecb832!2s156%20S%20Spruce%20Ave%20%232078%2C%20South%20San%20Francisco%2C%20CA%2094080%2C%20USA!5e0!3m2!1sen!2sph!4v1756713174244!5m2!1sen!2sph"
                         width="100%"
                         height="630px"
-                        style="border: none; display: block;"
+                        style="display: block;"
                         allowfullscreen=""
                         loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="border border-info">
                     </iframe>
                 </div>
             </div>
@@ -130,10 +132,10 @@
             <div class="fs-1">
               <img src="../main/contactus/picon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             </div>
-            <h4 class="text-secondary">Phone Number</h4>
-            <p class="mb-0 text-secondary"><strong>Toll Free</strong></p>
+            <h4 class="text-info">Phone Number</h4>
+            <p class="mb-0 text-info"><strong>Toll Free</strong></p>
             <p class="text-dark">800-533-0538</p>
-            <p class="mb-0 text-secondary"><strong>Phone</strong></p>
+            <p class="mb-0 text-info"><strong>Phone</strong></p>
             <p class="text-dark">650-239-3224</p>
           </div>
         </div>
@@ -146,8 +148,8 @@
             <div class="fs-1">
               <img src="../main/contactus/eicon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             </div>
-            <h4 class="text-secondary">Email Address</h4>
-            <p class="mb-0 text-secondary"><strong>Gmail</strong></p>
+            <h4 class="text-info">Email Address</h4>
+            <p class="mb-0 text-info"><strong>Gmail</strong></p>
             <p class="text-dark">winwardwealthsystems@gmail.com</p>
           </div>
         </div>
@@ -160,10 +162,10 @@
             <div class="fs-1">
               <img src="../main/contactus/Oicon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             </div>
-            <h4 class="text-secondary">Office Hours</h4>
-            <p class="mb-0 text-secondary"><strong>Days</strong></p>
+            <h4 class="text-info">Office Hours</h4>
+            <p class="mb-0 text-info"><strong>Days</strong></p>
             <p class="text-dark">Mon - Fri</p>
-            <p class="mb-0 text-secondary"><strong>Time</strong></p>
+            <p class="mb-0 text-info"><strong>Time</strong></p>
             <p class="text-dark">8 am - 5 pm</p>
           </div>
         </div>
@@ -176,7 +178,7 @@
             <div class="fs-1">
               <img src="../main/contactus/Licon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             </div>
-            <h4 class="text-secondary">Office Location</h4>
+            <h4 class="text-info">Office Location</h4>
             <p class="mb-0 text-dark">
               156 South Spruce Avenue, Suite 2078<br>
               South San Francisco, San Mateo<br>
