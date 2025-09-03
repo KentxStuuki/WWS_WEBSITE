@@ -88,11 +88,11 @@
     </div>
     <div class="offcanvas-body">
         <ul class="navbar-nav fw-bold fs-5">
-          <li><a href="../index.php" class="nav-link text-decoration-none text-secondary">Home</a></li>
-          <li><a href="../index.php#about" class="nav-link text-decoration-none text-secondary">About Us</a></li>
-          <li><a href="../index.php#services" class="nav-link text-decoration-none text-secondary">Services</a></li>
-          <li><a href="../index.php#testimonials" class="nav-link text-decoration-none text-secondary">Testimonials</a></li>
-          <li><a href="../index.php#contact" class="nav-link text-decoration-none text-secondary">Contact Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-secondary">About Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-secondary">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-secondary">Testimonials</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-secondary">Contact Us</a></li>
         </ul>
         <div class="mt-4">
             <a href="#" class="btn btn-info text-white px-4 py-2 rounded-pill w-100">Sign Up</a>
