@@ -45,5 +45,8 @@
     <section id="testimonials">
         <?php include 'testimonial.php'; ?>
     </section>
+    <section id="signup">
+        <?php include 'signup.php'; ?>
+    </section>
 </body>
 </html>
