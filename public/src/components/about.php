@@ -7,7 +7,7 @@
         <img src="../main/images/about_section/ad1.png" alt="About us Design" style="width: 40px; height: auto;" class="img-fluid">
     </div>
 
-    <div class="about_container position-relative pt-5" style="margin-top: 15%;">
+    <div class="about_container position-relative pt-5 pb-5" style="margin-top: 15%;">
 
 <!-- Images overlapping container -->
 <div class="about_img_container position-absolute start-50 gap-3 " 

@@ -1,5 +1,5 @@
 <section>
-  <footer class="bg-primary text-white pt-4">
+  <footer class="bg-secondary text-white pt-4">
     <div class="container ps-4 pe-5 py-3 ps-5 pe-5 gap-4">
       <div class="row g-4 text-center text-md-start align-items-start">
             <div class="col-12 col-md-5 col-lg-4 d-flex flex-column justify-content-between">
@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <div class="text-center mt-3 pb-3 bg-white text-primary py-3">
+    <div class="text-center mt-3 pb-3 bg-white text-secondary py-3">
       <small class="fs-6">Winward Wealth Systems &lt;W&gt; Copyright 2025 &lt;W&gt; All Rights Reserved</small>
     </div>
   </footer>

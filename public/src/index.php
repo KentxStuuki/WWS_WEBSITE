@@ -36,17 +36,25 @@
         <?php include 'components/about.php'?>
     </section>
 
-
-    <?php include 'contactus.php'; ?>
-    <?php include 'footer.php'; ?>
+    <!-- Services Section -->
     <section id="services">
-        <?php include 'services.php'; ?>
+        <?php include 'components/services.php'; ?>
     </section>
+
+    <!-- Testimonials Section -->
     <section id="testimonials">
-        <?php include 'testimonial.php'; ?>
+        <?php include 'components/testimonial.php'; ?>
     </section>
-    <section id="signup">
-        <?php include 'signup.php'; ?>
+
+    <!-- Contact Us Section -->
+    <section id="contact_section">
+        <?php include 'components/contactus.php'; ?>
     </section>
+
+    <!-- Footer Section -->
+    <section id="footer_section">
+        <?php include 'components/footer.php'; ?>
+    </section>
+
 </body>
 </html>

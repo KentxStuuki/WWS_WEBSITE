@@ -34,9 +34,9 @@
             </nav>
 
             <!-- Floating button (desktop only) -->
-            <button class="btn btn-info text-white position-absolute top-50 translate-middle-y px-5 py-4 fs-5 rounded-pill d-none d-lg-block" style="right: -10px;">
+            <a href="components/signup.php" class="btn btn-info text-white position-absolute top-50 translate-middle-y px-5 py-4 fs-5 rounded-pill d-none d-lg-block" style="right: -10px;">
                 Sign Up
-            </button>
+            </a>
 
             <!-- Hamburger button (mobile only) -->
             <button class="btn btn-info text-white rounded-circle p-3 fs-3 d-lg-none ms-auto position-absolute top-50 translate-middle-y" style="right: -18px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">

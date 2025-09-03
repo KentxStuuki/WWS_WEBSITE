@@ -2,7 +2,7 @@
     <div style="background: url('../main/testimonial_images/testimonialbg.jpg'); min-height: 100vh; background-size: cover; padding: 10% 0;">
 
     <!--BACKGROUND BLUE -->
-        <div class="d-none d-lg-block container bg-primary py-5 position-absolute rounded-4 w-75" style="opacity: .8; height:570px; left: 8%; top: 15%; z-index: 1;"></div>
+        <div class="d-none d-lg-block container bg-secondary py-5 position-absolute rounded-4 w-75" style="opacity: .8; height:570px; left: 8%; top: 15%; z-index: 1;"></div>
     <!--------------------------->
 
         <div class="position-relative container d-flex flex-column flex-lg-row" style="z-index: 2; padding-left: 3%;">
