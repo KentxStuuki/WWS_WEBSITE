@@ -1,17 +1,4 @@
-<div class="mx-5 px-3 pt-4">
-<!-- Top header (Desktop only) -->
-<div class="d-none d-lg-flex justify-content-between px-2 mx-5">
-    <h4 class="mx-2">Pathway to Financial Security & Generational Wealth</h4>
-    <h4 class="mx-5 px-5">800-533-0538 <i class="fa-solid fa-phone"></i></h4>
-</div>
-
-<!-- Top header (Mobile only) -->
-<div class="d-flex flex-column align-items-center d-lg-none px-2 mx-3 text-center">
-    <h4 class="mb-2">800-533-0538 <i class="fa-solid fa-phone"></i></h4>
-    <h4>Pathway to Financial Security & Generational Wealth</h4>
-</div>
-
-
+<div class="mx-5 px-3 pt-2">
     <!-- Navbar -->
     <div class="navbar_container navbar border border-secondary rounded-pill shadow-sm mx-1 position-relative px-1" style="width: 95%;">
         <div class="d-flex align-items-center justify-content-between w-100"> 
@@ -24,12 +11,13 @@
 
 
             <!-- Centered Navigation (desktop only) -->
-            <nav class="flex-grow-1 d-none d-lg-flex justify-content-center">
-                <ul class="d-flex gap-4 list-unstyled align-items-end m-0 fw-bold fs-5">
-                    <li><a href="#" class="nav-link text-decoration-none text-secondary">Home</a></li>
-                    <li><a href="#" class="nav-link text-decoration-none text-secondary">About Us</a></li>
-                    <li><a href="#" class="nav-link text-decoration-none text-secondary">Testimonials</a></li>
-                    <li><a href="#" class="nav-link text-decoration-none text-secondary">Contact Us</a></li>
+            <nav class="flex-grow-1 d-none d-lg-flex justify-content-center pe-5">
+                <ul class="d-flex gap-4 list-unstyled align-items-end m-0 fs-5 nav-tabs">
+                    <li><a href="#intro" class="nav-link text-decoration-none text-secondary">Home</a></li>
+                    <li><a href="#about" class="nav-link text-decoration-none text-secondary">About Us</a></li>
+                    <li><a href="#services" class="nav-link text-decoration-none text-secondary">Services</a></li>
+                    <li><a href="#testimonials" class="nav-link text-decoration-none text-secondary">Testimonials</a></li>
+                    <li><a href="#contact_section" class="nav-link text-decoration-none text-secondary">Contact Us</a></li>
                 </ul>
             </nav>
 

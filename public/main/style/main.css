@@ -1,70 +1,6 @@
 @charset "UTF-8";
-/* 📱 Mobile Responsiveness */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
-@media (max-width: 992px) {
-  /* Contact Section */
-  .contact-section h2, .contact-section .h2 {
-    font-size: 2.2rem;
-  }
-  /* Contact Form & Map stack vertically */
-  .d-flex.flex-lg-row {
-    flex-direction: column !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
-  /* Center the map container */
-  .feedback-card {
-    min-width: 100% !important;
-    height: 400px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto; /* Centers the card */
-    background-size: cover !important; /* Make bg image cover fully */
-    background-position: center !important;
-  }
-  /* Map full width */
-  iframe {
-    width: 100% !important; /* Full width on mobile */
-    height: 400px !important;
-    border-radius: 10px;
-  }
-  /* Connect Cards stack on small screens */
-  .contact-section .d-flex.gap-3 {
-    flex-direction: column;
-    gap: 1.5rem !important;
-  }
-  .contact-section .card {
-    width: 100%;
-  }
-  /* Footer adjustments */
-  footer .row {
-    text-align: center;
-  }
-  footer .d-flex {
-    justify-content: center !important;
-  }
-  footer .col-6 {
-    width: 100% !important;
-  }
-}
-/* 📱 Extra Small Screens (<=576px) */
-@media (max-width: 576px) {
-  .contact-section h2, .contact-section .h2 {
-    font-size: 2rem;
-  }
-  .connect-title {
-    font-size: 2rem;
-    line-height: 1.3;
-  }
-  .card img {
-    max-width: 50px !important;
-  }
-  footer .d-flex.gap-3 img {
-    max-width: 35px !important;
-  }
-}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
@@ -12049,6 +11985,27 @@ textarea.form-control-lg {
   border: 3px solid #0d6efd !important;
 }
 
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-tabs .nav-link {
+  position: relative;
+  color: #007FFF;
+  border: none;
+}
+.nav-tabs .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 0;
+  height: 12px;
+  background-color: #007FFF;
+}
+.nav-tabs .nav-link.active::after {
+  width: 100%;
+}
+
 .intro_container {
   background-image: url("../images/intro_section/intro_bg.jpg");
   background-size: cover;
@@ -12144,4 +12101,68 @@ span {
   .custom-nav, .testimonial-custom-nav {
     display: none;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/* 📱 Mobile Responsiveness */
+@media (max-width: 992px) {
+  /* Contact Section */
+  .contact-section h2, .contact-section .h2 {
+    font-size: 2.2rem;
+  }
+  /* Contact Form & Map stack vertically */
+  .d-flex.flex-lg-row {
+    flex-direction: column !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  /* Center the map container */
+  .feedback-card {
+    min-width: 100% !important;
+    height: 400px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centers the card */
+    background-size: cover !important; /* Make bg image cover fully */
+    background-position: center !important;
+  }
+  /* Map full width */
+  iframe {
+    width: 100% !important; /* Full width on mobile */
+    height: 400px !important;
+    border-radius: 10px;
+  }
+  /* Connect Cards stack on small screens */
+  .contact-section .d-flex.gap-3 {
+    flex-direction: column;
+    gap: 1.5rem !important;
+  }
+  .contact-section .card {
+    width: 100%;
+  }
+  /* Footer adjustments */
+  footer .row {
+    text-align: center;
+  }
+  footer .d-flex {
+    justify-content: center !important;
+  }
+  footer .col-6 {
+    width: 100% !important;
+  }
+}
+/* 📱 Extra Small Screens (<=576px) */
+@media (max-width: 576px) {
+  .contact-section h2, .contact-section .h2 {
+    font-size: 2rem;
+  }
+  .connect-title {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  .card img {
+    max-width: 50px !important;
+  }
+  footer .d-flex.gap-3 img {
+    max-width: 35px !important;
+  }
+}
