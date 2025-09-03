@@ -17,7 +17,7 @@
                     <li><a href="#about" class="nav-link text-decoration-none text-secondary">About Us</a></li>
                     <li><a href="#services" class="nav-link text-decoration-none text-secondary">Services</a></li>
                     <li><a href="#testimonials" class="nav-link text-decoration-none text-secondary">Testimonials</a></li>
-                    <li><a href="#contact_section" class="nav-link text-decoration-none text-secondary">Contact Us</a></li>
+                    <li><a href="#contact" class="nav-link text-decoration-none text-secondary">Contact Us</a></li>
                 </ul>
             </nav>
 

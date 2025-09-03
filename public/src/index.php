@@ -62,7 +62,7 @@
     </section>
 
     <!-- Contact Us Section -->
-    <section id="contact_section">
+    <section id="contact">
         <?php include 'components/contactus.php'; ?>
     </section>
 
