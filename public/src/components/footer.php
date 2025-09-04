@@ -1,8 +1,8 @@
 <section>
-  <footer class="bg-secondary text-white pt-4">
+  <footer class="bg-secondary text-white pt-4" data-aos="fade-up" data-aos-duration="1000">
     <div class="container ps-4 pe-5 py-3 ps-5 pe-5 gap-4">
       <div class="row g-4 text-center text-md-start align-items-start">
-            <div class="col-12 col-md-5 col-lg-4 d-flex flex-column justify-content-between">
+            <div class="col-12 col-md-5 col-lg-4 d-flex flex-column justify-content-between" data-aos="fade-up" data-aos-duration="1000">
                 <div>
                 <p class="fw-bold fs-5">Follow Winward Wealth Systems on Social Media</p>
                 <p class="fs-6 mb-3">
@@ -17,7 +17,7 @@
             </div>
             </div>
 
-        <div class="col-6 col-md-3 col-lg-3">
+        <div class="col-6 col-md-3 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
           <p class="fw-bold fs-5">Quick Links</p>
           <div class="d-flex flex-wrap fs-6 mb-0 gap-3">
             <ul class="list-unstyled me-4 mb-0 py-4">
@@ -35,7 +35,7 @@
         </div>
         </div>
 
-        <div class="col-12 col-md-4 col-lg-5">
+        <div class="col-12 col-md-4 col-lg-5" data-aos="fade-up" data-aos-duration="2000">
           <p class="fw-bold fs-5">Feedback</p>
           <form>
             <div class="mb-0 py-4">

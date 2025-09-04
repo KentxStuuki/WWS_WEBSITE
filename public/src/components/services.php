@@ -1,7 +1,7 @@
 <section>
     <div class="text-center">
-        <div style="background: url('../main/services_images/corebg.jpg'); min-height: 100vh; background-size: cover;" class="py-5">
-            <h1 class="text-warning fw-bold">Core Services</h1>
+        <div style="background: url('../main/services_images/corebg.jpg'); min-height: 100vh; background-size: cover;" class="py-5" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="text-warning fw-bold" data-aos="fade-up" data-aos-duration="1000">Core Services</h1>
             <div id="services_content" class="position-relative container"></div>
             <button class="btn btn-warning rounded-pill text-white shadow mt-2 px-5" style="width: 250px;">View All</button>
         </div>
@@ -12,7 +12,7 @@
     servicesContent.innerHTML=`
         <div class="owl-carousel owl-theme container">
             ${services.map(service => `
-                <div class="item p-3 d-flex flex-column rounded-4 shadow m-4 justify-content-between w-auto" style="background: white;">
+                <div class="item p-3 d-flex flex-column rounded-4 shadow m-4 justify-content-between w-auto" style="background: white;" data-aos="fade-up" data-aos-duration="1000">
                     <div>
                         <img src="${service.imgpath}" 
                             alt="${service.title}" 
@@ -27,7 +27,7 @@
             `).join('')}
         </div>
         <div class="owl-controls">
-            <div class="custom-nav owl-nav text-white align-items-center"></div>
+            <div class="custom-nav owl-nav text-white align-items-center" data-aos="fade-up" data-aos-duration="1000"></div>
         </div>
     `;
     $(".owl-carousel").owlCarousel({
