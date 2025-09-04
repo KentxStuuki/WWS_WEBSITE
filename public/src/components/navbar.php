@@ -1,13 +1,13 @@
-<div class="mx-5 px-3 pt-2">
+<div class="">
     <!-- Navbar -->
-    <div class="navbar_container navbar border border-secondary rounded-pill shadow-sm mx-1 position-relative px-1" style="width: 95%;">
+    <div class="navbar_container navbar border border-secondary rounded-pill shadow-sm  position-relative px-1 mx-5" style="width: 91%;" >
         <div class="d-flex align-items-center justify-content-between w-100"> 
             <!-- Logo -->
             <img src="../main/images/wws_logo.png" alt="WWS logo" style="width: 50px; height: auto;">
 
             <!-- Title -->
             <h3 class="text-secondary m-0 ms-2 d-none d-lg-block">WINWARD WEALTH SYSTEMS</h3>
-            <h5 class="text-secondary m-0 text-center w-100 d-lg-none">WINWARD WEALTH SYSTEMS</h5>
+            <h5 class="text-secondary fs-6 m-0 text-center w-100 d-lg-none">WINWARD WEALTH SYSTEMS</h5>
 
 
             <!-- Centered Navigation (desktop only) -->
@@ -27,7 +27,7 @@
             </a>
 
             <!-- Hamburger button (mobile only) -->
-            <button class="btn btn-info text-white rounded-circle p-3 fs-3 d-lg-none ms-auto position-absolute top-50 translate-middle-y" style="right: -18px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+            <button class="btn btn-info text-white rounded-circle p-4 fs-3 d-lg-none ms-auto position-absolute top-50 translate-middle-y" style="right: -10px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>

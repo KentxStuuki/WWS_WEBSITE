@@ -207,13 +207,32 @@ span{
 /* 📱 Extra Small Screens (<=576px) */
 @media (max-width: 576px) {
 
+    .navbar_container{
+         width: 90% !important;          /* smaller than 100% */
+        max-width: 1200px !important ;   /* optional */
+        margin: 0 auto !important;      /* centers the container */
+        position: relative !important;
+    }
+
+    .navbar_container h5{
+        font-size: 0.1rem !important;
+        width: 100% !important;
+        margin-right: 20%!important;
+    }
+
+    .nav_header_mobile h4{
+        width: 100% !important;
+        font-size: 0.1rem!important;
+        
+    }
+
     .intro_container{
         margin-bottom: 60% !important;
     }
 
     .intro_container h1{
-        font-size: 1.6rem !important;
-        width: 90% !important;
+        font-size: 1.4rem !important;
+        width: 95% !important;
     }
 
     .intro-line{
@@ -221,12 +240,12 @@ span{
         height: 2px !important;
     }
 
-    .inttro_container p{
-        font-size: 0.1rem !important;
+    .intro_container p{
+        font-size: 0.9rem !important;
     }
 
     .intro_feature{
-        bottom: -250px !important;
+        bottom: -150px !important;
     }
 
     .about_img_container{

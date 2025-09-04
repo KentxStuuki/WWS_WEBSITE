@@ -5,7 +5,7 @@
 
     <div class="intro-line" data-aos="fade-up" data-aos-duration="2000"></div>
 
-    <p class="mx-auto text-center px-3 fs-5 fs-md-6" style="max-width: 1000px;" data-aos="fade-up" data-aos-duration="2500"> Winward Wealth Systems specializes in providing personal and business financial solutions specially tailored to respective needs, challenges, goals, wishes, desires and aspirations.
+    <p class="mx-auto text-center px-3 fs-5 " style="max-width: 1000px;" data-aos="fade-up" data-aos-duration="2500"> Winward Wealth Systems specializes in providing personal and business financial solutions specially tailored to respective needs, challenges, goals, wishes, desires and aspirations.
     </p>
 
 
