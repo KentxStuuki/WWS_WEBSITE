@@ -47,7 +47,7 @@
             `).join('')}
         </div>
         <div class="owl-controls">
-            <div class="testimonial-custom-nav owl-nav text-white align-items-center text-end me-4"></div>
+            <div class="testimonial-custom-nav owl-nav text-white align-items-center text-end px-5"></div>
         </div>
     `;
     $(".owl-carousel").owlCarousel({
