@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../public/main/style/main.css">
     <link rel="stylesheet" href="../../public/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../../public/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../public/node_modules/aos/dist/aos.css">
 
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
@@ -17,11 +18,25 @@
     <script src="../../public/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../../public/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="../main/script/data.js"></script>
+    <script src="../node_modules/aos/dist/aos.js"></script>
     <title>WWS</title>
     
 </head>
 <body data-bs-spy="scroll" data-bs-target="#nav-tabs" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
-   
+     <!-- Navbar Section -->
+    <div class="pt-3 pb-1 mx-5">
+        <!-- Top header (Desktop only) -->
+        <div class="d-none d-lg-flex justify-content-between px-2 mx-5 gap-2">
+            <h4 class="mx-2">Pathway to Financial Security & Generational Wealth</h4>
+            <h4 class="mx-5 px-5">800-533-0538 <img src="../main/images/call.png" alt="Phone Icon" style="width: 35px; height: auto;"></h4>
+        </div>
+
+        <!-- Top header (Mobile only) -->
+        <div class="d-flex flex-column align-items-center d-lg-none px-2 mx-3 text-center">
+            <h4 class="mb-2">800-533-0538 <img src="../main/images/call.png" alt="Phone Icon" style="width: 25px; height: auto;"></h4>
+            <h4>Pathway to Financial Security & Generational Wealth</h4>
+        </div>
+     </div>
      <section class="sticky-top bg-white pb-2">
         <?php include 'components/navbar.php'?>
      </section>
@@ -60,3 +75,6 @@
 
 </body>
 </html>
+<script>
+  AOS.init();
+</script>

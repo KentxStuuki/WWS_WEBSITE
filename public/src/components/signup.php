@@ -43,7 +43,11 @@
             <h4>Pathway to Financial Security & Generational Wealth</h4>
         </div>
      </div>
+</div>
+
     <!-- Navbar -->
+<div class="sticky-top bg-white pb-2">
+<div class="px-3 pt-2 mx-5">
     <div class="navbar_container navbar border border-secondary rounded-pill shadow-sm mx-1 position-relative px-1" style="width: 95%;">
         <div class="d-flex align-items-center justify-content-between w-100"> 
             <!-- Logo -->
@@ -57,16 +61,16 @@
             <!-- Centered Navigation (desktop only) -->
             <nav class="flex-grow-1 d-none d-lg-flex justify-content-center pe-5">
                 <ul class="d-flex gap-4 list-unstyled align-items-end m-0  nav-tabs" style="font-size: 18px;">
-                    <li><a href="#intro" class="nav-link text-decoration-none text-secondary">Home</a></li>
-                    <li><a href="#about" class="nav-link text-decoration-none text-secondary">About Us</a></li>
-                    <li><a href="#services" class="nav-link text-decoration-none text-secondary">Services</a></li>
-                    <li><a href="#testimonials" class="nav-link text-decoration-none text-secondary">Testimonials</a></li>
-                    <li><a href="#contact" class="nav-link text-decoration-none text-secondary">Contact Us</a></li>
+                    <li><a href="../index.php#intro" class="nav-link text-decoration-none text-secondary">Home</a></li>
+                    <li><a href="../index.php#about" class="nav-link text-decoration-none text-secondary">About Us</a></li>
+                    <li><a href="../index.php#services" class="nav-link text-decoration-none text-secondary">Services</a></li>
+                    <li><a href="../index.php#testimonials" class="nav-link text-decoration-none text-secondary">Testimonials</a></li>
+                    <li><a href="../index.php#contact" class="nav-link text-decoration-none text-secondary">Contact Us</a></li>
                 </ul>
             </nav>
 
             <!-- Floating button (desktop only) -->
-            <a href="components/signup.php" class="btn btn-info text-white position-absolute top-50 translate-middle-y px-5 py-4 fs-5 rounded-pill d-none d-lg-block" style="right: -10px;">
+            <a href="#" class="btn btn-info text-white position-absolute top-50 translate-middle-y px-5 py-4 fs-5 rounded-pill d-none d-lg-block" style="right: -10px;">
                 Sign Up
             </a>
 
@@ -77,6 +81,7 @@
         </div>
     </div>
 </div>
+</div>
 
 <!-- Offcanvas Menu (mobile) -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
@@ -86,27 +91,47 @@
     </div>
     <div class="offcanvas-body">
         <ul class="navbar-nav fw-bold fs-5">
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">Services</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">Testimonials</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">Contact Us</a></li>
+            <li class="nav-item"><a href="../index.php#intro" class="nav-link text-secondary">Home</a></li>
+            <li class="nav-item"><a href="../index.php#about" class="nav-link text-secondary">About Us</a></li>
+            <li class="nav-item"><a href="../index.php#services" class="nav-link text-secondary">Services</a></li>
+            <li class="nav-item"><a href="../index.php#testimonials" class="nav-link text-secondary">Testimonials</a></li>
+            <li class="nav-item"><a href="../index.php#contact" class="nav-link text-secondary">Contact Us</a></li>
         </ul>
         <div class="mt-4">
             <a href="#" class="btn btn-info text-white px-4 py-2 rounded-pill w-100">Sign Up</a>
         </div>
     </div>
 </div>
-
-
-
+</section>
+ 
+<section class="text-center text-white d-flex flex-column justify-content-center align-items-center mt-4" 
+           style="background: url('../../main/signup_section/signup_background.jpg') center/cover no-repeat; min-height: 20vh;">
+    <h1 class="fw-bold display-4">Sign Up</h1>
 </section>
  
 
-
+<section class="my-4">
+  <div class="container">
+    <form class="row align-items-center g-4">
+      <div class="col-12 col-md-6 text-center text-start">
+        <h5 class="mb-0 section-paragraph mx-auto">
+          Sign Up to Receive Rewarding Deals for Any of Our Services
+        </h5>
+      </div>
+    
+      <div class="col-12 col-md-6">
+        <div class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Type here..." aria-label="Search"
+          style="border:3px solid #077FFF;">
+          <button class="btn btn-info w-25" type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
 
 <div class="text-center" style="margin-bottom: -39px;">
-  <h3 class="fw-bold bg-white text-secondary rounded-pill px-3 px-md-4 py-2 py-md-3 d-inline-block"
+  <h3 class="fw-bold bg-white text-info rounded-pill px-3 px-md-4 py-2 py-md-3 d-inline-block"
       style="box-shadow: 0 0 15px rgba(0, 0, 0, 0.25); max-width: 90%;">
     Be a Step Ahead in Getting Rewarding Financial Solutions
   </h3>

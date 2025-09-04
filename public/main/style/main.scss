@@ -59,7 +59,7 @@ $heading-font: 'Lora', serif;
 }
 
 .intro-feature{
-    width: 62%;
+    width: 104%;
 }
 
 .sep-line {
@@ -120,13 +120,12 @@ span{
     }
 
     //FOR CAROUSEL HIGHLIGHT
-    .owl-item.highlight .item{
+    #services_content .owl-item .item:hover{
     background: #F0C004 !important;
     color: white !important;
-    transition: ease-in .3s;
     }
 
-    .owl-item.highlight .item button {
+    #services_content .owl-item .item:hover button {
         background: white !important;
         color: #F0C004 !important;
     }

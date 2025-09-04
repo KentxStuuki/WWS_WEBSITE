@@ -12023,7 +12023,7 @@ textarea.form-control-lg {
 }
 
 .intro-feature {
-  width: 62%;
+  width: 104%;
 }
 
 .sep-line {
@@ -12086,13 +12086,12 @@ span {
   z-index: 100;
 }
 
-.owl-item.highlight .item {
+#services_content .owl-item .item:hover {
   background: #F0C004 !important;
   color: white !important;
-  transition: ease-in 0.3s;
 }
 
-.owl-item.highlight .item button {
+#services_content .owl-item .item:hover button {
   background: white !important;
   color: #F0C004 !important;
 }
@@ -12173,4 +12172,4 @@ span {
   footer .d-flex.gap-3 img {
     max-width: 35px !important;
   }
-}/*# sourceMappingURL=main.css.map */
+}

@@ -2,17 +2,17 @@
     <div style="background: url('../main/testimonial_images/testimonialbg.jpg'); min-height: 100vh; background-size: cover; padding: 10% 0;">
 
     <!--BACKGROUND BLUE -->
-        <div class="d-none d-lg-block container bg-secondary py-5 position-absolute rounded-4 w-75" style="opacity: .8; height:570px; left: 8%; top: 15%; z-index: 1;"></div>
+        <div class="d-none d-lg-block container bg-secondary py-5 position-absolute rounded-4 w-75" style="opacity: .8; height:570px; left: 8%; top: 15%; z-index: 1;" data-aos="fade-up" data-aos-duration="1000"></div>
     <!--------------------------->
 
-        <div class="position-relative container d-flex flex-column flex-lg-row" style="z-index: 2; padding-left: 3%;">
-            <div class="d-none position-absolute bg-white d-lg-flex align-items-center justify-content-center my-auto"style="width: 150px; height: 150px; top:-100px; border-radius: 50%;">
+        <div class="position-relative container d-flex flex-column flex-lg-row" style="z-index: 2; padding-left: 3%;" data-aos="fade-up" data-aos-duration="1500">
+            <div class="d-none position-absolute bg-white d-lg-flex align-items-center justify-content-center my-auto"style="width: 150px; height: 150px; top:-100px; border-radius: 50%;" data-aos="fade-up" data-aos-duration="2000">
                 <h1 class="fw-bolder display-1 text-warning my-auto" style="font-size: 260px;">"</h1>
             </div>
             <div class="me-4 position-relative mt-auto mb-5" style="flex: 0 0 30%;">
                 <div class="text-white my-5 ms-2 mb-0">
-                    <h1 class="fw-bold fs-1 mx-4">Testimonials</h1>
-                    <p class="fs-5 mb-0 mx-4">"Our testimonials reflect the real experiences of our valued clients. Read their stories and discover how our services have made a positive impact on their journey. These voices of trust and satisfaction inspire us to keep delivering the best every day."</p>
+                    <h1 class="fw-bold fs-1 mx-4" data-aos="fade-up" data-aos-duration="2000">Testimonials</h1>
+                    <p class="fs-5 mb-0 mx-4" data-aos="fade-up" data-aos-duration="2000">"Our testimonials reflect the real experiences of our valued clients. Read their stories and discover how our services have made a positive impact on their journey. These voices of trust and satisfaction inspire us to keep delivering the best every day."</p>
                 </div>
             </div>
             <div id="testimonial_content" class="flex-grow-1" style="min-width: 0;"></div>
@@ -26,7 +26,7 @@
     testimonialContent.innerHTML=`
         <div class="owl-carousel owl-theme container">
             ${testimonials.map(testimonial => `
-                <div class="item d-flex flex-column rounded-4 my-2 justify-content-between w-auto" style="background: white; height: 465px;">
+                <div class="item d-flex flex-column rounded-4 my-2 justify-content-between w-auto" style="background: white; height: 465px;" data-aos="fade-up" data-aos-duration="2500">
                 <div> 
                     <div class="position-relative">
                         <img src="${testimonial.imgpath}" 
@@ -47,7 +47,7 @@
             `).join('')}
         </div>
         <div class="owl-controls">
-            <div class="testimonial-custom-nav owl-nav text-white align-items-center text-end me-4"></div>
+            <div class="testimonial-custom-nav owl-nav text-white align-items-center text-end px-5"></div>
         </div>
     `;
     $(".owl-carousel").owlCarousel({
