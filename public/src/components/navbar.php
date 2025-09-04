@@ -49,7 +49,7 @@
             <li class="nav-item"><a href="#" class="nav-link text-secondary">Contact Us</a></li>
         </ul>
         <div class="mt-4">
-            <a href="#" class="btn btn-info text-white px-4 py-2 rounded-pill w-100">Sign Up</a>
+            <a href="components/signup.php" class="btn btn-info text-white px-4 py-2 rounded-pill w-100">Sign Up</a>
         </div>
     </div>
 </div>

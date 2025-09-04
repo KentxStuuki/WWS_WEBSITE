@@ -24,7 +24,7 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target="#nav-tabs" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
      <!-- Navbar Section -->
-    <div class="pt-3 pb-1">
+    <div class="pt-3 pb-1 mx-5">
         <!-- Top header (Desktop only) -->
         <div class="d-none d-lg-flex justify-content-between px-2 mx-5 gap-2">
             <h4 class="mx-2">Pathway to Financial Security & Generational Wealth</h4>
