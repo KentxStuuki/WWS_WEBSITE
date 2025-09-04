@@ -5,10 +5,13 @@
 
     <div class="intro-line" data-aos="fade-up" data-aos-duration="2000"></div>
 
-    <p class="mx-auto text-center px-3 fs-5 fs-md-5" style="max-width: 1000px;" data-aos="fade-up" data-aos-duration="2500"> Winward Wealth Systems specializes in providing personal and business financial solutions specially tailored to respective needs, challenges, goals, wishes, desires and aspirations.
+    <p class="mx-auto text-center px-3 fs-5 fs-md-6" style="max-width: 1000px;" data-aos="fade-up" data-aos-duration="2500"> Winward Wealth Systems specializes in providing personal and business financial solutions specially tailored to respective needs, challenges, goals, wishes, desires and aspirations.
     </p>
 
-<div class="intro-feature-container text-dark d-flex flex-column flex-md-row bg-white rounded mx-auto shadow-lg px-4 py-2 position-absolute start-50 translate-middle-x overflow-visible" style="bottom: 10px; width: 80%; z-index: 10; height: auto;" data-aos="fade-up" data-aos-duration="1000">
+
+</section>
+
+<div class="intro_feature text-dark d-flex flex-md-row bg-white rounded mx-auto shadow-lg px-4 py-2 position-absolute start-50 translate-middle-x overflow-visible" style="bottom: 10px; width: 80%; z-index: 10; height: auto;" data-aos="fade-up" data-aos-duration="1000">
 
     <!-- Image (hidden on mobile, floated on desktop) -->
     <img src="../main/images/intro_section/vector.png" alt="Introduction Image" 
@@ -20,7 +23,7 @@
        <div class="intro-feature bg-info text-white d-none d-lg-block position-absolute mt-3 p-3 top-0 "> <h3>Sign Up to Recieve Rewarding Deals </h3> </div>
 
         <!-- Mobile Title -->
-        <div class="intro-feature bg-info text-white d-block d-md-none position-absolute top-0 mt-3 p-3 text-center rounded" style="width: 103%;">
+        <div class="intro-feature bg-info text-white d-block d-md-none position-absolute top-0 p-3 text-center rounded" style="width: 123%">
             <h3>Sign Up to Receive Rewarding Deals</h3>
         </div>
 
@@ -30,7 +33,7 @@
         </p>
 
         <!-- Buttons -->
-        <div class="mt-3 d-flex flex-column flex-md-row gap-3 justify-content-center justify-content-md-start w-100">
+        <div class="mt-3 d-flex flex-column flex-md-row gap-3 pb-2 justify-content-center justify-content-md-start w-100">
             <button class="btn btn-outline-info rounded-pill px-5 py-2">More Info</button>
             <button class="btn btn-outline-info rounded-pill px-4 py-2">Need Assistance?</button>
             <button class="btn btn-outline-info rounded-pill px-4 py-2">Discover Solutions</button>
@@ -38,5 +41,3 @@
 
     </div>
 </div>
-</section>
-</section>
