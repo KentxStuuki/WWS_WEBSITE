@@ -1,4 +1,18 @@
 <div class="mx-5 px-3 pt-2">
+     <!-- Navbar Section -->
+     <div class="pt-3 pb-1">
+        <!-- Top header (Desktop only) -->
+        <div class="d-none d-lg-flex justify-content-between px-2 mx-5 gap-2">
+            <h4 class="mx-2">Pathway to Financial Security & Generational Wealth</h4>
+            <h4 class="mx-5 px-5">800-533-0538 <img src="../main/images/call.png" alt="Phone Icon" style="width: 35px; height: auto;"></h4>
+        </div>
+
+        <!-- Top header (Mobile only) -->
+        <div class="d-flex flex-column align-items-center d-lg-none px-2 mx-3 text-center">
+            <h4 class="mb-2">800-533-0538 <img src="../main/images/call.png" alt="Phone Icon" style="width: 25px; height: auto;"></h4>
+            <h4>Pathway to Financial Security & Generational Wealth</h4>
+        </div>
+     </div>
     <!-- Navbar -->
     <div class="navbar_container navbar border border-secondary rounded-pill shadow-sm mx-1 position-relative px-1" style="width: 95%;">
         <div class="d-flex align-items-center justify-content-between w-100"> 
@@ -12,7 +26,7 @@
 
             <!-- Centered Navigation (desktop only) -->
             <nav class="flex-grow-1 d-none d-lg-flex justify-content-center pe-5">
-                <ul class="d-flex gap-4 list-unstyled align-items-end m-0 fs-5 nav-tabs">
+                <ul class="d-flex gap-4 list-unstyled align-items-end m-0  nav-tabs" style="font-size: 18px;">
                     <li><a href="#intro" class="nav-link text-decoration-none text-secondary">Home</a></li>
                     <li><a href="#about" class="nav-link text-decoration-none text-secondary">About Us</a></li>
                     <li><a href="#services" class="nav-link text-decoration-none text-secondary">Services</a></li>

@@ -5,7 +5,7 @@
 
     <div class="intro-line"></div>
 
-    <p class="mx-auto text-center px-3 fs-6 fs-md-5" style="max-width: 800px;"> Winward Wealth Systems specializes in providing personal and business financial solutions specially tailored to respective needs, challenges, goals, wishes, desires and aspirations.
+    <p class="mx-auto text-center px-3 fs-5 fs-md-5" style="max-width: 1000px;"> Winward Wealth Systems specializes in providing personal and business financial solutions specially tailored to respective needs, challenges, goals, wishes, desires and aspirations.
     </p>
 
 <div class="intro-feature-container text-dark d-flex flex-column flex-md-row bg-white rounded mx-auto shadow-lg px-4 py-2 position-absolute start-50 translate-middle-x overflow-visible" style="bottom: 10px; width: 80%; z-index: 10; height: auto;">

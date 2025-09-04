@@ -7,12 +7,12 @@
 
         <div class="position-relative container d-flex flex-column flex-lg-row" style="z-index: 2; padding-left: 3%;">
             <div class="d-none position-absolute bg-white d-lg-flex align-items-center justify-content-center my-auto"style="width: 150px; height: 150px; top:-100px; border-radius: 50%;">
-                <h1 class="fw-bolder display-1 text-warning my-auto" style="font-size: 150px;">"</h1>
+                <h1 class="fw-bolder display-1 text-warning my-auto" style="font-size: 260px;">"</h1>
             </div>
             <div class="me-4 position-relative mt-auto mb-5" style="flex: 0 0 30%;">
                 <div class="text-white my-5 ms-2 mb-0">
-                    <h1 class="fw-bold fs-1">Testimonials</h1>
-                    <p class="fs-5 mb-0">"Our testimonials reflect the real experiences of our valued clients. Read their stories and discover how our services have made a positive impact on their journey. These voices of trust and satisfaction inspire us to keep delivering the best every day."</p>
+                    <h1 class="fw-bold fs-1 mx-4">Testimonials</h1>
+                    <p class="fs-5 mb-0 mx-4">"Our testimonials reflect the real experiences of our valued clients. Read their stories and discover how our services have made a positive impact on their journey. These voices of trust and satisfaction inspire us to keep delivering the best every day."</p>
                 </div>
             </div>
             <div id="testimonial_content" class="flex-grow-1" style="min-width: 0;"></div>
@@ -33,7 +33,7 @@
                         alt="${testimonial.name}" 
                         class="mx-auto mb-2 h-auto rounded-top-4" style="border-bottom: solid 15px #F0C004">
                         <div class="position-absolute bg-warning d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; bottom: -10px; right: 10px;  border-radius: 50%;">
-                            <h2 class="fw-bolder display-5 text-white my-auto text-center">"</h2>
+                            <h2 class="fw-bolder display-5 text-white my-auto text-center" style="font-size: 80px;">"</h2>
                         </div>
                     </div>
                     <div class="mx-3">

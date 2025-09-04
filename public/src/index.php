@@ -21,20 +21,7 @@
     
 </head>
 <body data-bs-spy="scroll" data-bs-target="#nav-tabs" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
-    <!-- Navbar Section -->
-     <div class="mx-5 px-3 pt-4">
-        <!-- Top header (Desktop only) -->
-        <div class="d-none d-lg-flex justify-content-between px-2 mx-5">
-            <h4 class="mx-2">Pathway to Financial Security & Generational Wealth</h4>
-            <h4 class="mx-5 px-5">800-533-0538 <i class="fa-solid fa-phone"></i></h4>
-        </div>
-
-        <!-- Top header (Mobile only) -->
-        <div class="d-flex flex-column align-items-center d-lg-none px-2 mx-3 text-center">
-            <h4 class="mb-2">800-533-0538 <i class="fa-solid fa-phone"></i></h4>
-            <h4>Pathway to Financial Security & Generational Wealth</h4>
-        </div>
-     </div>
+   
      <section class="sticky-top bg-white pb-2">
         <?php include 'components/navbar.php'?>
      </section>
