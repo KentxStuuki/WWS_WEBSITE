@@ -120,13 +120,13 @@ span{
     }
 
     //FOR CAROUSEL HIGHLIGHT
-    .owl-item.highlight .item{
+    .owl-item .item:hover{
     background: #F0C004 !important;
     color: white !important;
     transition: ease-in .3s;
     }
 
-    .owl-item.highlight .item button {
+    .owl-item .item:hover button {
         background: white !important;
         color: #F0C004 !important;
     }

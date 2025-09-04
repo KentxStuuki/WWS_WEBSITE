@@ -23,7 +23,20 @@
     
 </head>
 <body data-bs-spy="scroll" data-bs-target="#nav-tabs" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
-   
+     <!-- Navbar Section -->
+    <div class="pt-3 pb-1">
+        <!-- Top header (Desktop only) -->
+        <div class="d-none d-lg-flex justify-content-between px-2 mx-5 gap-2">
+            <h4 class="mx-2">Pathway to Financial Security & Generational Wealth</h4>
+            <h4 class="mx-5 px-5">800-533-0538 <img src="../main/images/call.png" alt="Phone Icon" style="width: 35px; height: auto;"></h4>
+        </div>
+
+        <!-- Top header (Mobile only) -->
+        <div class="d-flex flex-column align-items-center d-lg-none px-2 mx-3 text-center">
+            <h4 class="mb-2">800-533-0538 <img src="../main/images/call.png" alt="Phone Icon" style="width: 25px; height: auto;"></h4>
+            <h4>Pathway to Financial Security & Generational Wealth</h4>
+        </div>
+     </div>
      <section class="sticky-top bg-white pb-2">
         <?php include 'components/navbar.php'?>
      </section>

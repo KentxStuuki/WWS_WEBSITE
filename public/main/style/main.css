@@ -12086,13 +12086,13 @@ span {
   z-index: 100;
 }
 
-.owl-item.highlight .item {
+.owl-item .item:hover {
   background: #F0C004 !important;
   color: white !important;
   transition: ease-in 0.3s;
 }
 
-.owl-item.highlight .item button {
+.owl-item .item:hover button {
   background: white !important;
   color: #F0C004 !important;
 }

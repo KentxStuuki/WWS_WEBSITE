@@ -43,12 +43,5 @@
             600: { items: 2 },
             1000: { items: 3 }
         },
-        onInitialized: highlightFirst,
-        onTranslated: highlightFirst
     });
-    function highlightFirst(event) {
-        var $items = $(".owl-carousel").find('.owl-item');
-        $items.removeClass('highlight');
-        $items.filter('.active').first().addClass('highlight');
-    }
 </script>
