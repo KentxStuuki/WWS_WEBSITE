@@ -23,7 +23,7 @@
        <div class="intro-feature bg-info text-white d-none d-lg-block position-absolute mt-3 p-3 top-0 "> <h3>Sign Up to Recieve Rewarding Deals </h3> </div>
 
         <!-- Mobile Title -->
-        <div class="intro-feature bg-info text-white d-block d-md-none position-absolute top-0 p-3 text-center rounded" style="width: 123%">
+        <div class="intro-feature_mobile bg-info text-white d-block d-md-none position-absolute top-0 p-3 text-center rounded" style="width: 123%">
             <h3>Sign Up to Receive Rewarding Deals</h3>
         </div>
 

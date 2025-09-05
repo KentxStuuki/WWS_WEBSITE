@@ -1,62 +1,3 @@
-<!-- Style -->
- <style>
-    .contact-section {
-    position: relative;
-    padding: 0 0 50px;
-    width: 100%;
-    background: 
-        linear-gradient(to bottom, rgba(255,255,255,0) 60%, white 40%),
-        url("../main/contactus/cbg.jpg");
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-}
-
-
-    .contact-section h2 {
-        font-size: 3.5rem;
-        font-weight: bold;
-        /* text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5); */
-        margin-bottom: 0px; /* keeps slight space before cards */
-        text-shadow: 50px 50px 50px rgba(0, 0, 255, 0.7);
-    }
-
-    .card {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        margin-top: 0px;
-    }
-
-    .card:hover {
-        background-color: var(--bs-info);
-        color: white;
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-        border:none;
-    }
-
-/* Ensure specific text elements inside also turn white */
-.card:hover h5,
-.card:hover h4,
-.card:hover h6,
-.card:hover p,
-.card:hover a {
-    color: white !important;
-}
-
-
-.connect-title {
-    font-size: 3rem; /* Adjust size if needed */
-    font-weight: 800;
-    color: white; /* Main text color */
-    text-align: center;
-    letter-spacing: 2px;
-}
-
-.connect-title h2 {
-    text-shadow: 50px 50px 50px rgba(0, 0, 255, 0.7); /* Subtle shadow for better readability */
-}
-
- </style>
  
 <section>
     <div class="container mt-5">
@@ -121,17 +62,19 @@
 </section>
 
 <section class="contact-section my-5">
-  <img src="../main/images/contact_section/connect.png" class="py-5 d-block mx-auto" alt="" data-aos="fade-up" data-aos-duration="1000">
-  <div class="d-flex gap-3 text-center ps-5 pe-5 w-100">
-    <div class="container d-flex gap-3 flex-wrap w-100">
+  <!-- Header Image -->
+  <img src="../main/images/contact_section/connect.png" class="py-5 d-block mx-auto img-fluid" alt="" data-aos="fade-up" data-aos-duration="1000">
+
+  <!-- Cards Container -->
+  <div class="contact-card-container d-flex text-center w-100 flex-wrap justify-content-center">
+
+    <div class="container d-flex gap-3 flex-wrap w-100 justify-content-center">
 
       <!-- Phone Card -->
-      <div class="flex-fill" data-aos="fade-up" data-aos-duration="1000">
+      <div class="flex-fill" data-aos="fade-up" data-aos-duration="1000" style="min-width: 250px;">
         <div class="card text-white rounded-4 shadow-sm text-center h-100">
           <div class="card-body">
-            <div class="fs-1">
-              <img src="../main/contactus/picon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
-            </div>
+            <img src="../main/images/contact_section/picon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             <h4 class="text-info fw-bold">Phone Number</h4>
             <p class="mb-0 text-info"><strong>Toll Free</strong></p>
             <p class="text-dark">800-533-0538</p>
@@ -142,12 +85,10 @@
       </div>
 
       <!-- Email Card -->
-      <div class="flex-fill" data-aos="fade-up" data-aos-duration="1500">
+      <div class="flex-fill" data-aos="fade-up" data-aos-duration="1500" style="min-width: 250px;">
         <div class="card text-white rounded-4 shadow-sm text-center h-100">
           <div class="card-body">
-            <div class="fs-1">
-              <img src="../main/contactus/eicon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
-            </div>
+            <img src="../main/images/contact_section/eicon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             <h4 class="text-info fw-bold">Email Address</h4>
             <p class="mb-0 text-info"><strong>Gmail</strong></p>
             <p class="text-dark">winwardwealthsystems@gmail.com</p>
@@ -156,12 +97,10 @@
       </div>
 
       <!-- Hours Card -->
-      <div class="flex-fill" data-aos="fade-up" data-aos-duration="2000">
+      <div class="flex-fill" data-aos="fade-up" data-aos-duration="2000" style="min-width: 250px;">
         <div class="card text-white rounded-4 shadow-sm text-center h-100">
           <div class="card-body">
-            <div class="fs-1">
-              <img src="../main/contactus/Oicon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
-            </div>
+            <img src="../main/images/contact_section/Oicon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             <h4 class="text-info fw-bold">Office Hours</h4>
             <p class="mb-0 text-info"><strong>Days</strong></p>
             <p class="text-dark">Mon - Fri</p>
@@ -172,12 +111,10 @@
       </div>
 
       <!-- Office Card -->
-      <div class="flex-fill" data-aos="fade-up" data-aos-duration="2500">
+      <div class="flex-fill" data-aos="fade-up" data-aos-duration="2500" style="min-width: 250px;">
         <div class="card text-white rounded-4 shadow-sm text-center h-100">
           <div class="card-body">
-            <div class="fs-1">
-              <img src="../main/contactus/Licon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
-            </div>
+            <img src="../main/images/contact_section/Licon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             <h4 class="text-info fw-bold">Office Location</h4>
             <p class="mb-0 text-dark">
               156 South Spruce Avenue, Suite 2078<br>
@@ -191,4 +128,5 @@
     </div>
   </div>
 </section>
+
 
