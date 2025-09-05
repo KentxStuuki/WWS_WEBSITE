@@ -42,7 +42,7 @@
             <h4>Pathway to Financial Security & Generational Wealth</h4>
         </div>
      </div>
-<div class="">
+<div class="sticky-top bg-white py-2 pt-4">
     <!-- Navbar -->
     <div class="navbar_container navbar border border-secondary rounded-pill shadow-sm  position-relative px-1 mx-5" style="width: 91%;" >
         <div class="d-flex align-items-center justify-content-between w-100"> 
@@ -65,6 +65,11 @@
                 </ul>
             </nav>
 
+               <!-- Floating button (desktop only) -->
+            <a href="#" class="btn btn-info text-white position-absolute top-50 translate-middle-y px-5 py-4 fs-5 rounded-pill d-none d-lg-block" style="right: -10px;">
+                Sign Up
+            </a>
+
             <!-- Hamburger button (mobile only) -->
             <button class="btn btn-info text-white rounded-circle p-4 fs-3 d-lg-none ms-auto position-absolute top-50 translate-middle-y" style="right: -10px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
                 <i class="fa-solid fa-bars"></i>
@@ -81,13 +86,15 @@
     </div>
     <div class="offcanvas-body">
         <ul class="navbar-nav fw-bold fs-5">
-            <li class="nav-item"><a href="../index.php#intro" class="nav-link text-secondary">Home</a></li>
-            <li class="nav-item"><a href="../index.php#about" class="nav-link text-secondary">About Us</a></li>
-            <li class="nav-item"><a href="../index.php#services" class="nav-link text-secondary">Services</a></li>
-            <li class="nav-item"><a href="../index.php#testimonials" class="nav-link text-secondary">Testimonials</a></li>
-            <li class="nav-item"><a href="../index.php#contact" class="nav-link text-secondary">Contact Us</a></li>
+            <li class="nav-item"><a href="" class="nav-link text-secondary">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link text-secondary">About Us</a></li>
+            <li class="nav-item"><a href="" class="nav-link text-secondary">Services</a></li>
+            <li class="nav-item"><a href="" class="nav-link text-secondary">Testimonials</a></li>
+            <li class="nav-item"><a href="" class="nav-link text-secondary">Contact Us</a></li>
         </ul>
-       
+        <div class="mt-4">
+            <a href="#" class="btn btn-info text-white px-4 py-2 rounded-pill w-100">Sign Up</a>
+        </div>
     </div>
 </div>
 

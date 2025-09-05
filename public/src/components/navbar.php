@@ -1,4 +1,4 @@
-<div class="">
+<div class="pt-3">
     <!-- Navbar -->
     <div class="navbar_container navbar border border-secondary rounded-pill shadow-sm  position-relative px-1 mx-5" style="width: 91%;" >
         <div class="d-flex align-items-center justify-content-between w-100"> 
@@ -49,7 +49,7 @@
             <li class="nav-item"><a href="#" class="nav-link text-secondary">Contact Us</a></li>
         </ul>
         <div class="mt-4">
-            <a href="components/signup.php" class="btn btn-info text-white px-4 py-2 rounded-pill w-100">Sign Up</a>
+            <a href="#" class="btn btn-info text-white px-4 py-2 rounded-pill w-100">Sign Up</a>
         </div>
     </div>
 </div>
