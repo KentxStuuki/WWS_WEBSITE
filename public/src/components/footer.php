@@ -20,13 +20,13 @@
   <p class="fw-bold fs-5">Quick Links</p>
   <div class="footer_quick_link d-flex flex-wrap fs-6 mb-0" style="gap: 35px;">
     <ul class="list-unstyled mb-0 py-4">
-      <li class="mb-2"><a href="#" class="text-white text-decoration-none">Home</a></li>
-      <li class="mb-2"><a href="#" class="text-white text-decoration-none">About Us</a></li>
-      <li class="mb-2"><a href="#" class="text-white text-decoration-none">Services</a></li>
-      <li><a href="#" class="text-white text-decoration-none">Testimonials</a></li>
+      <li class="mb-2"><a href="#intro" class="text-white text-decoration-none">Home</a></li>
+      <li class="mb-2"><a href="#about" class="text-white text-decoration-none">About Us</a></li>
+      <li class="mb-2"><a href="#services" class="text-white text-decoration-none">Services</a></li>
+      <li><a href="#testimonials" class="text-white text-decoration-none">Testimonials</a></li>
     </ul>
     <ul class="list-unstyled mb-0 py-4">
-      <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+      <li class="mb-2"><a href="#contact" class="text-white text-decoration-none">Contact Us</a></li>
       <li class="mb-2"><a href="#" class="text-white text-decoration-none">Affiliate Program</a></li>
       <li class="mb-2"><a href="#" class="text-white text-decoration-none">Terms & Condition</a></li>
       <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>

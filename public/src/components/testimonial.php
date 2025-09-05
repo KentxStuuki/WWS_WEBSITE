@@ -1,5 +1,5 @@
 <section class="position-relative">
-    <div style="background: url('../main/testimonial_images/testimonialbg.jpg'); min-height: 100vh; background-size: cover; padding: 10% 0;">
+    <div style="background: url('../main/images/testimonial_images/testimonialbg.jpg'); min-height: 100vh; background-size: cover; padding: 10% 0;">
 
     <!--BACKGROUND BLUE -->
         <div class="d-none d-lg-block container bg-secondary py-5 position-absolute rounded-4 w-75" style="opacity: .8; height:570px; left: 8%; top: 15%; z-index: 1;" data-aos="fade-up" data-aos-duration="1000"></div>

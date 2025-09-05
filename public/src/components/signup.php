@@ -57,18 +57,13 @@
             <!-- Centered Navigation (desktop only) -->
             <nav class="flex-grow-1 d-none d-lg-flex justify-content-center pe-5">
                 <ul class="d-flex gap-4 list-unstyled align-items-end m-0  nav-tabs" style="font-size: 18px;">
-                    <li><a href="#intro" class="nav-link text-decoration-none text-secondary">Home</a></li>
-                    <li><a href="#about" class="nav-link text-decoration-none text-secondary">About Us</a></li>
-                    <li><a href="#services" class="nav-link text-decoration-none text-secondary">Services</a></li>
-                    <li><a href="#testimonials" class="nav-link text-decoration-none text-secondary">Testimonials</a></li>
-                    <li><a href="#contact" class="nav-link text-decoration-none text-secondary">Contact Us</a></li>
+                    <li><a href="../index.php#intro" class="nav-link text-decoration-none text-secondary">Home</a></li>
+                    <li><a href="../index.php#about" class="nav-link text-decoration-none text-secondary">About Us</a></li>
+                    <li><a href="../index.php#services" class="nav-link text-decoration-none text-secondary">Services</a></li>
+                    <li><a href="../index.php#testimonials" class="nav-link text-decoration-none text-secondary">Testimonials</a></li>
+                    <li><a href="../index.php#contact" class="nav-link text-decoration-none text-secondary">Contact Us</a></li>
                 </ul>
             </nav>
-
-            <!-- Floating button (desktop only) -->
-            <a href="components/signup.php" class="btn btn-info text-white position-absolute top-50 translate-middle-y px-5 py-4 fs-5 rounded-pill d-none d-lg-block" style="right: -10px;">
-                Sign Up
-            </a>
 
             <!-- Hamburger button (mobile only) -->
             <button class="btn btn-info text-white rounded-circle p-4 fs-3 d-lg-none ms-auto position-absolute top-50 translate-middle-y" style="right: -10px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
@@ -86,21 +81,19 @@
     </div>
     <div class="offcanvas-body">
         <ul class="navbar-nav fw-bold fs-5">
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">Services</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">Testimonials</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-secondary">Contact Us</a></li>
+            <li class="nav-item"><a href="../index.php#intro" class="nav-link text-secondary">Home</a></li>
+            <li class="nav-item"><a href="../index.php#about" class="nav-link text-secondary">About Us</a></li>
+            <li class="nav-item"><a href="../index.php#services" class="nav-link text-secondary">Services</a></li>
+            <li class="nav-item"><a href="../index.php#testimonials" class="nav-link text-secondary">Testimonials</a></li>
+            <li class="nav-item"><a href="../index.php#contact" class="nav-link text-secondary">Contact Us</a></li>
         </ul>
-        <div class="mt-4">
-            <a href="components/signup.php" class="btn btn-info text-white px-4 py-2 rounded-pill w-100">Sign Up</a>
-        </div>
+       
     </div>
 </div>
 
  
 <section class="text-center text-white d-flex flex-column justify-content-center align-items-center mt-4" 
-           style="background: url('../../main/signup_section/signup_background.jpg') center/cover no-repeat; min-height: 20vh;">
+           style="background: url('../../main/images/signup_section/signup_background.jpg') center/cover no-repeat; min-height: 20vh;">
     <h1 class="fw-bold display-4">Sign Up</h1>
 </section>
  
@@ -147,7 +140,7 @@
       <span id="phone-number" class="text-dark">1-800-533-0538</span>
       <button class="btn btn-sm btn-link text-dark ms-2 p-0" 
               onclick="copyPhone()" style="line-height: 1;">
-        <img src="../../main/signup_section/copyicon.png" alt="Copy Icon" style="width:20px; height:20px;">
+        <img src="../../main/images/signup_section/copyicon.png" alt="Copy Icon" style="width:20px; height:20px;">
       </button>
       <small id="copy-msg" class="text-success ms-2 d-none">Copied!</small>
     </span>  
@@ -159,106 +152,100 @@
 
 
 <section class="py-5" 
-  style="background: url('../../main/signup_section/signup_background2.jpg') center/cover no-repeat;">
+  style="background: url('../../main/images/signup_section/signup_background2.jpg') center/cover no-repeat;">
   
   <div class="container h-100">
     <div class="row g-4 h-100 align-items-center">
       
       <!-- Left: Form -->
       <div class="col-md-6 d-flex flex-column justify-content-center" style="border-right:3px solid #077FFF; padding-right:2rem;">
-<div class="d-flex justify-content-center">
-  <div class="d-flex align-items-center position-relative">
+  <div class="d-flex justify-content-center">
+    <div class="d-flex align-items-center position-relative">
 
-    <!-- Step 1 -->
-    <div class="position-relative d-flex justify-content-center align-items-center" style="width:60px; height:60px;">
-      <!-- Outer blue circle -->
-      <div class="rounded-circle bg-info w-100 h-100"></div>
-      <!-- Inner white-bordered circle -->
-      <div class="rounded-circle position-absolute d-flex justify-content-center align-items-center" 
-           style="width:50px; height:50px; border:3px solid white; top:50%; left:50%; transform:translate(-50%, -50%); font-weight:600; font-size:40px; font-family:cambria; color:white;">
-        1
+      <!-- Step 1 -->
+      <div class="position-relative d-flex justify-content-center align-items-center" style="width:60px; height:60px;">
+        <!-- Outer blue circle -->
+        <div class="rounded-circle bg-info w-100 h-100"></div>
+        <!-- Inner white-bordered circle -->
+        <div class="rounded-circle position-absolute d-flex justify-content-center align-items-center" 
+            style="width:50px; height:50px; border:3px solid white; top:50%; left:50%; transform:translate(-50%, -50%); font-weight:600; font-size:40px; font-family:cambria; color:white;">
+          1
+        </div>
+      </div>
+
+      <!-- Line between Step 1 and 2 -->
+      <div style="width:40px; height:7px; background-color:#CCCCCC; margin-left:-1px; margin-right:-1px;"></div>
+
+      <!-- Step 2 -->
+      <div class="position-relative d-flex justify-content-center align-items-center" style="width:60px; height:60px;">
+        <!-- Outer gray circle -->
+        <div class="rounded-circle" style="width:100%; height:100%; background-color:#CCCCCC;"></div>
+        <!-- Inner white-bordered circle -->
+        <div class="rounded-circle position-absolute d-flex justify-content-center align-items-center" 
+            style="width:50px; height:50px; border:3px solid white; top:50%; left:50%; transform:translate(-50%, -50%); font-weight:600; font-size:40px; font-family:cambria; color:white;">
+          2
+        </div>
+      </div>
+
+      <!-- Line between Step 2 and 3 -->
+      <div style="width:40px; height:7px; background-color:#CCCCCC; margin-left:-1px; margin-right:-1px;"></div>
+
+      <!-- Step 3 -->
+      <div class="position-relative d-flex justify-content-center align-items-center" style="width:60px; height:60px;">
+        <!-- Outer gray circle -->
+        <div class="rounded-circle" style="width:100%; height:100%; background-color:#CCCCCC;"></div>
+        <!-- Inner white-bordered circle -->
+        <div class="rounded-circle position-absolute d-flex justify-content-center align-items-center" 
+            style="width:50px; height:50px; border:3px solid white; top:50%; left:50%; transform:translate(-50%, -50%); font-weight:600; font-size:40px; font-family:cambria; color:white;">
+          3
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <form style="margin-top:1.5rem;">
+    <!-- Contact Information -->
+    <div class="mb-3">
+      <label class="form-label">Contact Information</label>
+      <input type="text" class="form-control" style="border:3px solid #077FFF;" placeholder="Contact Information">
+    </div>
+
+    <!-- First & Last Name -->
+    <div class="row mb-3">
+      <div class="col">
+        <label class="form-label">First Name</label>
+        <input type="text" class="form-control" style="border:3px solid #077FFF;" placeholder="First Name">
+      </div>
+      <div class="col">
+        <label class="form-label">Last Name</label>
+        <input type="text" class="form-control" style="border:3px solid #077FFF;" placeholder="Last Name">
       </div>
     </div>
 
-    <!-- Line between Step 1 and 2 -->
-    <div style="width:40px; height:7px; background-color:#CCCCCC; margin-left:-1px; margin-right:-1px;"></div>
+    <!-- Email & Phone Number -->
+    <div class="row mb-3">
+      <!-- Email Input -->
+      <div class="col">
+        <label class="form-label">Email Address</label>
+        <input type="email" class="form-control" style="border:3px solid #077FFF;" placeholder="Email Address">
+      </div>
 
-    <!-- Step 2 -->
-    <div class="position-relative d-flex justify-content-center align-items-center" style="width:60px; height:60px;">
-      <!-- Outer gray circle -->
-      <div class="rounded-circle" style="width:100%; height:100%; background-color:#CCCCCC;"></div>
-      <!-- Inner white-bordered circle -->
-      <div class="rounded-circle position-absolute d-flex justify-content-center align-items-center" 
-           style="width:50px; height:50px; border:3px solid white; top:50%; left:50%; transform:translate(-50%, -50%); font-weight:600; font-size:40px; font-family:cambria; color:white;">
-        2
+      <!-- Phone Input with PH flag and separator -->
+      <div class="col">
+      <label class="form-label">Phone Number</label>
+      <div class="d-flex align-items-center" style="border:3px solid #077FFF; border-radius:0.25rem; overflow:hidden;">
+        
+
+        <div class="d-flex align-items-center px-3" style="border-right:2px solid #077FFF;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg" alt="PH Flag" style="width:35px; height:20px;">
+        </div>
+
+          <input type="tel" class="form-control" placeholder="9** *** ****" style="border:none;">
+          
+        </div>
       </div>
     </div>
-
-    <!-- Line between Step 2 and 3 -->
-    <div style="width:40px; height:7px; background-color:#CCCCCC; margin-left:-1px; margin-right:-1px;"></div>
-
-    <!-- Step 3 -->
-    <div class="position-relative d-flex justify-content-center align-items-center" style="width:60px; height:60px;">
-      <!-- Outer gray circle -->
-      <div class="rounded-circle" style="width:100%; height:100%; background-color:#CCCCCC;"></div>
-      <!-- Inner white-bordered circle -->
-      <div class="rounded-circle position-absolute d-flex justify-content-center align-items-center" 
-           style="width:50px; height:50px; border:3px solid white; top:50%; left:50%; transform:translate(-50%, -50%); font-weight:600; font-size:40px; font-family:cambria; color:white;">
-        3
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-
-
-
-        <form style="margin-top:1.5rem;">
-          <!-- Contact Information -->
-          <div class="mb-3">
-            <label class="form-label">Contact Information</label>
-            <input type="text" class="form-control" style="border:3px solid #077FFF;" placeholder="Contact Information">
-          </div>
-
-          <!-- First & Last Name -->
-          <div class="row mb-3">
-            <div class="col">
-              <label class="form-label">First Name</label>
-              <input type="text" class="form-control" style="border:3px solid #077FFF;" placeholder="First Name">
-            </div>
-            <div class="col">
-              <label class="form-label">Last Name</label>
-              <input type="text" class="form-control" style="border:3px solid #077FFF;" placeholder="Last Name">
-            </div>
-          </div>
-
-         <!-- Email & Phone Number -->
-<div class="row mb-3">
-  <!-- Email Input -->
-  <div class="col">
-    <label class="form-label">Email Address</label>
-    <input type="email" class="form-control" style="border:3px solid #077FFF;" placeholder="Email Address">
-  </div>
-
-  <!-- Phone Input with PH flag and separator -->
-  <div class="col">
-  <label class="form-label">Phone Number</label>
-  <div class="d-flex align-items-center" 
-       style="border:3px solid #077FFF; border-radius:0.25rem; overflow:hidden;">
-    
-
-    <div class="d-flex align-items-center px-3" style="border-right:2px solid #077FFF;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg" 
-           alt="PH Flag" style="width:35px; height:20px;">
-    </div>
- 
-    <input type="tel" class="form-control" placeholder="9** *** ****" style="border:none;">
-    
-  </div>
-</div>
-</div>
 
           <!-- Submit Button -->
         <div class="d-flex justify-content-end">
@@ -271,14 +258,14 @@
 </div>
 
 
-        </form>
+</form>
 
-      </div>
+</div>
 
       <!-- Right: Privacy -->
       <div class="col-md-6 d-flex flex-column justify-content-start" style="padding-left:2rem;">
         <h2 class="text-secondary fw-bold mb-3">We value and respect <br>
-         your privacy</h2>
+            your privacy</h2>
         <p class="fs-4">
           Rest assured that the information we receive <br>will only be used by us and for its intended<br> purpose 
           which is to make helping you <br>convenient and a more efficient process.
@@ -290,10 +277,10 @@
 </section>
 
 <section>
-  <footer class="bg-secondary text-white pt-4">
+  <footer class="bg-secondary text-white  pt-4" data-aos="fade-up" data-aos-duration="1000">
     <div class="container ps-4 pe-5 py-3 ps-5 pe-5 gap-4">
       <div class="row g-4 text-center text-md-start align-items-start">
-            <div class="col-12 col-md-5 col-lg-4 d-flex flex-column justify-content-between">
+            <div class="col-12 col-md-5 col-lg-4 d-flex flex-column justify-content-between" data-aos="fade-up" data-aos-duration="1000">
                 <div>
                 <p class="fw-bold fs-5">Follow Winward Wealth Systems on Social Media</p>
                 <p class="fs-6 mb-3">
@@ -301,32 +288,32 @@
                 </p>
                 </div>
             <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-5 mb-0" style="padding-top: 10%;">
-                <a href="#"><img src="../../main/contactus/fb.png" class="img-fluid" style="max-width:40px;" alt="Facebook"></a>
-                <a href="#"><img src="../../main/contactus/x.png" class="img-fluid" style="max-width:40px;" alt="X"></a>
-                <a href="#"><img src="../../main/contactus/ig.png" class="img-fluid" style="max-width:40px;" alt="Instagram"></a>
-                <a href="#"><img src="../../main/contactus/in.png" class="img-fluid" style="max-width:40px;" alt="LinkedIn"></a>
+                <a href="#"><img src="../../main/images/contact_section/fb.png" class="img-fluid" style="max-width:40px;" alt="Facebook"></a>
+                <a href="#"><img src="../../main/images/contact_section/x.png" class="img-fluid" style="max-width:40px;" alt="X"></a>
+                <a href="#"><img src="../../main/images/contact_section/ig.png" class="img-fluid" style="max-width:40px;" alt="Instagram"></a>
+                <a href="#"><img src="../../main/images/contact_section/in.png" class="img-fluid" style="max-width:40px;" alt="LinkedIn"></a>
             </div>
             </div>
+<div class="col-6 col-md-3 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
+  <p class="fw-bold fs-5">Quick Links</p>
+  <div class="footer_quick_link d-flex flex-wrap fs-6 mb-0" style="gap: 35px;">
+    <ul class="list-unstyled mb-0 py-4">
+      <li class="mb-2"><a href="../index.php#intro" class="text-white text-decoration-none">Home</a></li>
+      <li class="mb-2"><a href="../index.php#about" class="text-white text-decoration-none">About Us</a></li>
+      <li class="mb-2"><a href="../index.php#services" class="text-white text-decoration-none">Services</a></li>
+      <li><a href="../index.php#testimonials" class="text-white text-decoration-none">Testimonials</a></li>
+    </ul>
+    <ul class="list-unstyled mb-0 py-4">
+      <li class="mb-2"><a href="../index.php#contact" class="text-white text-decoration-none">Contact Us</a></li>
+      <li class="mb-2"><a href="#" class="text-white text-decoration-none">Affiliate Program</a></li>
+      <li class="mb-2"><a href="#" class="text-white text-decoration-none">Terms & Condition</a></li>
+      <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+    </ul>
+  </div>
+</div>
 
-        <div class="col-6 col-md-3 col-lg-3">
-          <p class="fw-bold fs-5">Quick Links</p>
-          <div class="d-flex flex-wrap fs-6 mb-0 gap-3">
-            <ul class="list-unstyled me-4 mb-0 py-4">
-                <li><a href="#" class="text-white text-decoration-none">Home</a></li>
-                <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Services</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Testimonials</a></li>
-            </ul>
-            <ul class="list-unstyled mb-0 py-4">
-                <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Affiliate Program</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Terms & Condition</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
-            </ul>
-        </div>
-        </div>
 
-        <div class="col-12 col-md-4 col-lg-5">
+        <div class="col-12 col-md-4 col-lg-5" data-aos="fade-up" data-aos-duration="2000">
           <p class="fw-bold fs-5">Feedback</p>
           <form>
             <div class="mb-0 py-4">
@@ -348,24 +335,3 @@
     </div>
   </footer>
 </section>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-  function copyPhone() {
-    const phone = document.getElementById("phone-number").textContent;
-    navigator.clipboard.writeText(phone).then(() => {
-      const msg = document.getElementById("copy-msg");
-      msg.classList.remove("d-none"); 
-      setTimeout(() => msg.classList.add("d-none"), 1500); 
-    });
-  }
-</script>
-</body>
-</html>
-
-
-
-
-
