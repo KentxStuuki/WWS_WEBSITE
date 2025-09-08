@@ -14,30 +14,31 @@
 <div class="intro_feature text-dark d-flex flex-md-row bg-white rounded mx-auto shadow-lg px-4 py-2 position-absolute start-50 translate-middle-x overflow-visible" style="bottom: 10px; width: 80%; z-index: 10; height: auto;" data-aos="fade-up" data-aos-duration="1000">
 
     <!-- Image (hidden on mobile, floated on desktop) -->
-    <img src="../main/images/intro_section/vector.png" alt="Introduction Image" 
-         class="position-relative px-3 d-none d-lg-block ms-md-auto" style="margin-top:-120px; width: 38%; height: auto;" data-aos="zoom-in" data-aos-duration="1500" >
+    <img src="../main/images/intro_section/vector.png" alt="Introduction Image" class="position-relative px-3 d-none d-lg-block ms-md-auto" style="margin-top:-120px; width: 38%; height: auto;" data-aos="zoom-in" data-aos-duration="1500" >
 
     <div class="flex-fill d-flex flex-column justify-content-center align-items-center align-items-md-start" data-aos="fade-up" data-aos-duration="1500">
 
         <!-- Desktop Title -->
-       <div class="intro-feature bg-info text-white d-none d-lg-block position-absolute mt-3 p-3 top-0 "> <h3>Sign Up to Recieve Rewarding Deals </h3> </div>
+       <div class="intro-feature bg-info text-white d-none d-lg-block position-absolute mt-3 p-3 top-0"> <h3>Sign Up to Recieve Rewarding Deals </h3> </div>
 
         <!-- Mobile Title -->
-        <div class="intro-feature_mobile bg-info text-white d-block d-md-none position-absolute top-0 p-3 text-center rounded" style="width: 123%">
+        <div class="intro_feature_mobile bg-info text-white d-block d-lg-none position-absolute top-0 p-3 text-center rounded" >
             <h3>Sign Up to Receive Rewarding Deals</h3>
         </div>
 
         <!-- Description -->
-        <p class="pt-5 mt-5 fs-5 text-dark text-center text-md-start">
+        <p class="intro_feature_mobile_desc pt-5 mt-5 fs-5 fs-md-6 text-dark w-md-100 w-sm-50">
             For any of our services in just a few steps.
         </p>
 
         <!-- Buttons -->
-        <div class="mt-3 d-flex flex-column flex-md-row gap-3 pb-2 justify-content-center justify-content-md-start w-100">
-            <button class="btn btn-outline-info rounded-pill px-5 py-2">More Info</button>
-            <button class="btn btn-outline-info rounded-pill px-4 py-2">Need Assistance?</button>
-            <button class="btn btn-outline-info rounded-pill px-4 py-2">Discover Solutions</button>
+        <div class=" intro_buttons_tablet mt-3 d-flex flex-column flex-md-row gap-3 pb-2 justify-content-center justify-content-md-start w-100">
+            <button class="btn btn-outline-info rounded-pill px-5 px-md-3 px-sm-4 py-2">More Info</button>
+            <button class="btn btn-outline-info rounded-pill px-4 px-md-3 px-sm-4 py-2">Need Assistance?</button>
+            <button class="btn btn-outline-info rounded-pill px-4 px-md-2
+            px-sm-4 py-2">Discover Solutions</button>
         </div>
 
     </div>
 </div>
+

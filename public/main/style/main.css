@@ -12165,6 +12165,37 @@ span {
 
 /* Mobile Responsiveness */
 @media (max-width: 992px) {
+  .intro_feature {
+    margin-bottom: -12% !important;
+  }
+  .intro_feature_mobile {
+    display: block;
+    position: absolute !important; /* keep absolute positioning */
+    top: 0 !important;
+    left: 50% !important; /* center horizontally */
+    transform: translateX(-50%);
+    width: 111% !important;
+  }
+  .intro_feature_mobile_desc {
+    text-align: center !important; /* center text */
+    margin-left: auto !important; /* optional: horizontal centering */
+    margin-right: auto !important; /* optional: horizontal centering */
+    width: 90% !important; /* prevent overflow */
+  }
+  .about_img_container img:nth-child(1),
+  .about_img_container img:nth-child(3) {
+    max-width: 200px !important; /* shrink side images */
+  }
+  .about_img_container img:nth-child(2) {
+    max-width: 300px !important; /* shrink middle image */
+  }
+  .about_img_container img:nth-child(1), .about_img_container img:nth-child(2), .about_img_container img:nth-child(3) {
+    padding-top: 100px !important;
+  }
+  .about_content_header h3, .about_content_header .h3 {
+    width: 80% !important; /* allow more space for text */
+    font-size: 1.2rem; /* scale text slightly */
+  }
   /* Contact Section */
   .contact-section h2, .contact-section .h2 {
     font-size: 2.2rem;
@@ -12210,6 +12241,18 @@ span {
   footer .col-6 {
     width: 100% !important;
   }
+  .intro_buttons_tablet {
+    justify-content: center !important; /* center buttons horizontally */
+    flex-direction: row !important; /* stack buttons vertically */
+    align-items: center !important; /* center buttons */
+  }
+  .intro_buttons_tablet button {
+    width: 80% !important; /* make buttons uniform and readable */
+    max-width: 300px; /* optional: limit max width */
+  }
+  .sep-line {
+    margin-top: 15% !important;
+  }
 }
 /* 📱 Extra Small Screens (<=576px) */
 @media (max-width: 576px) {
@@ -12249,9 +12292,6 @@ span {
     width: 10% !important;
     height: auto !important;
     display: none !important;
-  }
-  .intro_feature_mobile {
-    width: 80% !important;
   }
   .intro_feature_mobile h3, .intro_feature_mobile .h3 {
     font-size: 0.2rem !important;
@@ -12307,4 +12347,21 @@ span {
   footer .d-flex.gap-3 img {
     max-width: 35px !important;
   }
+  .intro_feature_mobile {
+    width: 120% !important;
+  }
 }
+@media (max-width: 576px) {
+  .intro_feature_mobile {
+    width: 120% !important;
+  }
+  .intro_buttons_tablet {
+    flex-direction: column !important; /* force row layout */
+    justify-content: center !important; /* center buttons horizontally */
+    flex-wrap: wrap !important; /* allow wrapping if buttons overflow */
+    gap: 0.5rem !important; /* adjust gap for small screens */
+  }
+  .intro_buttons_tablet button {
+    flex: 1 1 auto; /* optional: prevent overly wide buttons */
+  }
+}/*# sourceMappingURL=main.css.map */
