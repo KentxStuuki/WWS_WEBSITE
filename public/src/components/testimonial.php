@@ -6,8 +6,8 @@
     <!--------------------------->
 
         <div class="position-relative container d-flex flex-column flex-lg-row" style="z-index: 2; padding-left: 3%;" data-aos="fade-up" data-aos-duration="1500">
-            <div class="d-none position-absolute bg-white d-lg-flex align-items-center justify-content-center my-auto"style="width: 150px; height: 150px; top:-100px; border-radius: 50%;" data-aos="fade-up" data-aos-duration="2000">
-                <h1 class="fw-bolder display-1 text-warning my-auto" style="font-size: 260px;">"</h1>
+            <div class="d-none position-absolute bg-white d-lg-flex align-items-center justify-content-center my-auto"style="width: 150px; height: 150px; top:-100px; left: 80px; border-radius: 50%;" data-aos="fade-up" data-aos-duration="2000">
+                <h1 class="fw-bold display-1 text-warning my-auto" style="font-size: 260px;">"</h1>
             </div>
             <div class="me-4 position-relative mt-auto mb-5" style="flex: 0 0 30%;">
                 <div class="text-white my-5 ms-2 mb-0">
@@ -33,7 +33,7 @@
                         alt="${testimonial.name}" 
                         class="mx-auto mb-2 h-auto rounded-top-4" style="border-bottom: solid 15px #F0C004">
                         <div class="position-absolute bg-warning d-flex align-items-center justify-content-center" style="width: 50px; height: 50px; bottom: -10px; right: 10px;  border-radius: 50%;">
-                            <h2 class="fw-bolder display-5 text-white my-auto text-center" style="font-size: 80px;">"</h2>
+                            <h2 class="fw-bolder display-5 text-white my-auto text-center" style="font-size: 70px;">"</h2>
                         </div>
                     </div>
                     <div class="mx-3">
