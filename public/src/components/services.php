@@ -1,6 +1,6 @@
 <section>
     <div class="text-center">
-        <div style="background: url('../main/services_images/corebg.jpg'); min-height: 100vh; background-size: cover;" class="py-5" data-aos="fade-up" data-aos-duration="1500">
+        <div style="background: url('../main/images/services_images/corebg.jpg'); min-height: 100vh; background-size: cover;" class="py-5" data-aos="fade-up" data-aos-duration="1500">
             <h1 class="text-warning fw-bold" data-aos="fade-up" data-aos-duration="1000">Core Services</h1>
             <div id="services_content" class="position-relative container"></div>
             <button class="btn btn-warning rounded-pill text-white shadow mt-2 px-5" style="width: 250px;">View All</button>

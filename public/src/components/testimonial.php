@@ -26,7 +26,7 @@
     testimonialContent.innerHTML=`
         <div class="owl-carousel owl-theme container">
             ${testimonials.map(testimonial => `
-                <div class="item d-flex flex-column rounded-4 my-2 justify-content-between w-auto" style="background: white; height: 465px;" data-aos="fade-up" data-aos-duration="2500">
+                <div class="item d-flex flex-column rounded-4 my-2 justify-content-between w-auto" style="background: white; height: auto;" data-aos="fade-up" data-aos-duration="2500">
                 <div> 
                     <div class="position-relative">
                         <img src="${testimonial.imgpath}" 
