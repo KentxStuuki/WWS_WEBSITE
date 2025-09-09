@@ -8,10 +8,7 @@
     <p class="mx-auto text-center px-3 fs-5 " style="max-width: 1000px;" data-aos="fade-up" data-aos-duration="2500"> Winward Wealth Systems specializes in providing personal and business financial solutions specially tailored to respective needs, challenges, goals, wishes, desires and aspirations.
     </p>
 
-
-</section>
-
-<div class="intro_feature text-dark d-flex flex-md-row bg-white rounded mx-auto shadow-lg px-4 py-2 position-absolute start-50 translate-middle-x overflow-visible" style="bottom: 10px; width: 80%; z-index: 10; height: auto;" data-aos="fade-up" data-aos-duration="1000">
+<div class="intro_feature text-dark d-flex flex-md-row bg-white rounded mx-auto shadow-lg px-4 py-2 position-absolute start-50 translate-middle-x overflow-visible" style="bottom: -20px; width: 80%; z-index: 10; height: auto;" data-aos="fade-up" data-aos-duration="1000">
 
     <!-- Image (hidden on mobile, floated on desktop) -->
     <img src="../main/images/intro_section/vector.png" alt="Introduction Image" class="position-relative px-3 d-none d-lg-block ms-md-auto" style="margin-top:-120px; width: 38%; height: auto;" data-aos="zoom-in" data-aos-duration="1500" >
@@ -42,3 +39,4 @@
     </div>
 </div>
 
+</section>
