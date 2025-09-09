@@ -12263,13 +12263,11 @@ span {
     position: relative !important;
   }
   .navbar_container h5, .navbar_container .h5 {
-    font-size: 0.1rem !important;
     width: 100% !important;
     margin-right: 20% !important;
   }
   .nav_header_mobile h4, .nav_header_mobile .h4 {
     width: 100% !important;
-    font-size: 0.1rem !important;
   }
   .intro_container {
     margin-bottom: 60% !important;
@@ -12293,9 +12291,6 @@ span {
     height: auto !important;
     display: none !important;
   }
-  .intro_feature_mobile h3, .intro_feature_mobile .h3 {
-    font-size: 0.2rem !important;
-  }
   .about_header {
     margin-bottom: -20px !important;
   }
@@ -12306,9 +12301,6 @@ span {
   }
   .about_content h4, .about_content .h4 {
     font-size: 0.7rem !important;
-  }
-  .about_content p {
-    font-size: 0.1rem !important;
   }
   .contact-section h2, .contact-section .h2 {
     font-size: 2rem;
@@ -12364,4 +12356,4 @@ span {
   .intro_buttons_tablet button {
     flex: 1 1 auto; /* optional: prevent overly wide buttons */
   }
-}/*# sourceMappingURL=main.css.map */
+}
