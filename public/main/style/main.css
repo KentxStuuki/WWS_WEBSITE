@@ -12209,11 +12209,6 @@ span {
   }
   .about_content_header h3, .about_content_header .h3 {
     width: 80% !important; /* allow more space for text */
-    font-size: 1.2rem; /* scale text slightly */
-  }
-  /* Contact Section */
-  .contact-section h2, .contact-section .h2 {
-    font-size: 2.2rem;
   }
   /* Contact Form & Map stack vertically */
   .d-flex.flex-lg-row {
@@ -12305,7 +12300,6 @@ span {
   }
   .about_content_header h3, .about_content_header .h3 {
     width: 80% !important; /* allow more space for text */
-    font-size: 1.2rem; /* scale text slightly */
   }
   .sep-line {
     margin-top: 35% !important;
@@ -12348,15 +12342,11 @@ span {
     margin-bottom: 60% !important;
   }
   .intro_container h1, .intro_container .h1 {
-    font-size: 1.4rem !important;
     width: 95% !important;
   }
   .intro-line {
     width: 90% !important;
     height: 2px !important;
-  }
-  .intro_container p {
-    font-size: 0.9rem !important;
   }
   .intro_feature {
     bottom: -40% !important;
@@ -12371,11 +12361,7 @@ span {
   }
   .about_content_header h3, .about_content_header .h3 {
     margin-top: -100px !important;
-    font-size: 1rem !important;
     width: 90% !important;
-  }
-  .about_content h4, .about_content .h4 {
-    font-size: 0.7rem !important;
   }
   .contact-section h2, .contact-section .h2 {
     font-size: 2rem;
@@ -12538,10 +12524,10 @@ span {
 }
 @media (max-width: 376px) {
   .intro_feature {
-    margin-top: 100% !important;
+    margin-bottom: 5% !important;
   }
   .sep-line {
-    margin-top: 5% !important;
+    margin-top: 15% !important;
   }
 }
 @media (max-width: 345px) {
@@ -12551,10 +12537,10 @@ span {
 }
 @media (max-width: 321px) {
   .intro_feature {
-    margin-bottom: -10% !important;
+    margin-bottom: -20% !important;
   }
   .sep-line {
-    margin-top: 40% !important;
+    margin-top: 45% !important;
   }
   .intro_buttons_tablet button {
     width: 100% !important; /* make buttons uniform and readable */
