@@ -12538,10 +12538,10 @@ span {
 }
 @media (max-width: 376px) {
   .intro_feature {
-    margin-bottom: -10% !important;
+    margin-top: 100% !important;
   }
   .sep-line {
-    margin-top: 10% !important;
+    margin-top: 5% !important;
   }
 }
 @media (max-width: 345px) {
@@ -12551,9 +12551,13 @@ span {
 }
 @media (max-width: 321px) {
   .intro_feature {
-    margin-bottom: -50% !important;
+    margin-bottom: -10% !important;
   }
   .sep-line {
     margin-top: 40% !important;
   }
-}
+  .intro_buttons_tablet button {
+    width: 100% !important; /* make buttons uniform and readable */
+    max-width: 200px !important; /* optional: limit max width */
+  }
+}/*# sourceMappingURL=main.css.map */
