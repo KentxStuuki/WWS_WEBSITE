@@ -12477,10 +12477,10 @@ span {
 }
 @media (max-width: 426px) {
   .intro_feature {
-    margin-bottom: -30% !important;
+    margin-bottom: 20% !important;
   }
   .sep-line {
-    margin-top: 20% !important;
+    margin-top: 10% !important;
   }
 }
 @media (max-width: 415px) {
@@ -12530,10 +12530,7 @@ span {
     height: 90vh;
   }
   .intro_feature {
-    margin-bottom: -48% !important;
-  }
-  .sep-line {
-    margin-top: 15% !important;
+    margin-bottom: 18% !important;
   }
 }
 @media (max-width: 345px) {
@@ -12543,10 +12540,10 @@ span {
 }
 @media (max-width: 321px) {
   .intro_feature {
-    margin-bottom: -80% !important;
+    margin-bottom: -20% !important;
   }
   .sep-line {
-    margin-top: 45% !important;
+    margin-top: 25% !important;
   }
   .intro_buttons_tablet button {
     width: 100% !important; /* make buttons uniform and readable */
