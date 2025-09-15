@@ -32,17 +32,17 @@
     <div class="pt-3 pb-1 mx-5">
         <!-- Top header (Desktop only) -->
         <div class="d-none d-lg-flex justify-content-between px-2 mx-5 gap-2">
-            <h4 class="mx-2 fs-4">Pathway to Financial Security & Generational Wealth</h4>
-            <h4 class="mx-5 px-5 fs-4">800-533-0538 <img src="../../main/images/call.png" alt="Phone Icon" style="width: 35px; height: auto;"></h4>
+            <p class="mx-2 fs-4">Pathway to Financial Security & Generational Wealth</p>
+            <p class="mx-5 px-5 fs-4">800-533-0538 <img src="../../main/images/call.png" alt="Phone Icon" style="width: 35px; height: auto;"></p>
         </div>
 
         <!-- Top header (Mobile only) -->
         <div class="nav_header_mobile d-flex flex-column align-items-center d-lg-none  text-center">
-            <h4 class="mb-2">800-533-0538 <img src="../../main/images/call.png" alt="Phone Icon" class="mb-1" style="width: 25px; height: auto;"></h4>
-            <h4>Pathway to Financial Security & Generational Wealth</h4>
+            <p class="mb-2">800-533-0538 <img src="../../main/images/call.png" alt="Phone Icon" class="mb-1" style="width: 25px; height: auto;"></p>
+            <p>Pathway to Financial Security & Generational Wealth</p>
         </div>
      </div>
-<div class="sticky-top bg-white py-2 pt-4">
+<div class="sticky-top bg-white pb-1 pt-3">
     <!-- Navbar -->
     <div class="navbar_container navbar border border-secondary rounded-pill shadow-sm  position-relative px-1 mx-5" style="width: 91%;" >
         <div class="d-flex align-items-center justify-content-between w-100"> 
@@ -50,7 +50,7 @@
             <img src="../../main/images/wws_logo.png" alt="WWS logo" style="width: 50px; height: auto;">
 
             <!-- Title -->
-            <h3 class="text-secondary m-0 ms-2 d-none d-lg-block">WINWARD WEALTH SYSTEMS</h3>
+            <h3 class="text-secondary m-0 ms-2 d-none d-lg-block fw-bold">WINWARD WEALTH SYSTEMS</h3>
             <h5 class="text-secondary fs-6 m-0 text-center w-100 d-lg-none">WINWARD WEALTH SYSTEMS</h5>
 
 
@@ -81,7 +81,7 @@
 <!-- Offcanvas Menu (mobile) -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
     <div class="offcanvas-header">
-        <h5 class="offcanvas-title text-secondary " id="mobileMenuLabel">WINWARD WEALTH SYSTEMS</h5> 
+        <h5 class="offcanvas-title text-secondary fw-bold" id="mobileMenuLabel">WINWARD WEALTH SYSTEMS</h5> 
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
@@ -271,7 +271,7 @@
 
       <!-- Right: Privacy -->
       <div class="col-md-6 d-flex flex-column justify-content-start" style="padding-left:2rem;">
-        <h2 class="text-secondary fw-bold mb-3">We value and respect <br>
+        <h2 class="text-info fw-bold mb-3">We value and respect <br>
             your privacy</h2>
         <p class="fs-4">
           Rest assured that the information we receive <br>will only be used by us and for its intended<br> purpose 
@@ -327,11 +327,11 @@
         <p class="fw-bold fs-5">Feedback</p>
         <form>
           <div class="mb-3 py-2">
-            <h5>Full Name</h5>
+            <p>Full Name</p>
             <input type="text" class="form-control rounded-2" placeholder="Full name">
           </div>
           <div class="mb-3">
-            <h5>Feedback</h5>
+            <p>Feedback</p>
             <textarea class="form-control rounded-2" rows="2" placeholder="Feedback"></textarea>
           </div>
           <button type="submit" class="btn btn-info text-white w-100 rounded-2">Send</button>

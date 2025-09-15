@@ -29,17 +29,17 @@
 
     <!-- About content -->
     <div class="about_content_header pt-5 mt-5 text-center" data-aos="fade-right" data-aos-duration="1000">
-      <h3 class="fs-3 text-dark bg-white shadow-lg mx-auto px-3 py-4 rounded-pill"  
+      <h3 class="fs-3 text-dark bg-white shadow-lg mx-auto px-3 py-4 rounded-pill fw-bold"  
           style="margin-top: 6%; width: 55%;">Attain <span>Sustainable Financial Stability </span>and <span>Security</span></h3>
     </div>
 
     <div class="about_content bg-white shadow-lg w-75 text-center mx-auto rounded my-5 p-3" data-aos="fade-right" data-aos-duration="1000">
-      <h4 class="fs-4">At <span>Winward Wealth Systems</span>, </h4>
+      <h4 class="fs-4 fw-bold">At <span>Winward Wealth Systems</span>, </h4>
       <p class="fs-5">It is not only about bringing fourth the most sensible, best available, and truly beneficial solutions or resolutions to money-related needs, challenges or problems; it is also about helping with integrity and professionalism while serving in bringing forth importantm or even necessary relief to one's money problems, needs or challenges, or while serving as a guide supporting one's desire in attaining, and/or enjoying even greater financial success when financial stability and security have already been attained.</p>
     </div>
 
     <div class="about_content bg-white shadow-lg w-75 mx-auto rounded my-5 p-3" data-aos="fade-right" data-aos-duration="1000">
-      <h4 class="fs-4">With <span>Winward Wealth Systems</span></h4>
+      <h4 class="fs-4 fw-bold">With <span>Winward Wealth Systems</span></h4>
       <p class="fs-5">services being, in essence, a combination of complementary, time-tested sound and progress-driven financial system, choosing Winward Wealth Systems in solving money-related matters can be a wholly enjoyable, convenient and rewarding experience and/or journey towards the attainment of one's all-worthy financial goals, dreams and aspirations.</p>
     </div>
 

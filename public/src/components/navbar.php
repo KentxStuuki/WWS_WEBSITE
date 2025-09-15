@@ -6,8 +6,8 @@
             <img src="../main/images/wws_logo.png" alt="WWS logo" style="width: 50px; height: auto;">
 
             <!-- Title -->
-            <h3 class="text-secondary m-0 ms-2 d-none d-lg-block">WINWARD WEALTH SYSTEMS</h3>
-            <h5 class="text-secondary fs-6 m-0 text-center w-100 d-lg-none">WINWARD WEALTH SYSTEMS</h5>
+            <h3 class="text-secondary m-0 ms-2 d-none d-lg-block fw-bold">WINWARD WEALTH SYSTEMS</h3>
+            <h5 class="text-secondary fs-6 m-0 text-center w-100 d-lg-none fw-bold">WINWARD WEALTH SYSTEMS</h5>
 
 
             <!-- Centered Navigation (desktop only) -->

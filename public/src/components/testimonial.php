@@ -2,12 +2,12 @@
     <div style="background: url('../main/images/testimonial_images/testimonialbg.jpg'); min-height: 100vh; background-size: cover; padding: 10% 0;">
 
     <!--BACKGROUND BLUE -->
-        <div class="d-none d-lg-block container bg-secondary py-5 position-absolute rounded-4 w-75" style="opacity: .8; height:570px; left: 8%; top: 15%; z-index: 1;" data-aos="fade-up" data-aos-duration="1000"></div>
+        <div class="d-none d-lg-block container bg-secondary py-5 position-absolute rounded-4 bg-blue" style="opacity: .8; height:570px; width: 75%; left: 8%; top: 15%; z-index: 1;" data-aos="fade-up" data-aos-duration="1000"></div>
     <!--------------------------->
 
-        <div class="position-relative container d-flex flex-column flex-lg-row" style="z-index: 2; padding-left: 3%;" data-aos="fade-up" data-aos-duration="1500">
-            <div class="d-none position-absolute bg-white d-lg-flex align-items-center justify-content-center my-auto"style="width: 150px; height: 150px; top:-100px; left: 80px; border-radius: 50%;" data-aos="fade-up" data-aos-duration="2000">
-                <h1 class="fw-bold display-1 text-warning my-auto" style="font-size: 260px;">"</h1>
+        <div class="position-relative container d-flex flex-column flex-lg-row testimonial-container" style="z-index: 2; padding-left: 2%; padding-top: 3%;" data-aos="fade-up" data-aos-duration="1500">
+            <div class="d-none position-absolute bg-white d-lg-flex align-items-center justify-content-center my-auto"style="width: 180px; height: 180px; top:-100px; left: 80px; border-radius: 50%;" data-aos="fade-up" data-aos-duration="2000">
+                <h1 class="fw-bold display-1 text-warning my-auto" style="font-size: 280px;">"</h1>
             </div>
             <div class="me-4 position-relative mt-auto mb-5" style="flex: 0 0 30%;">
                 <div class="text-white my-5 ms-2 mb-0">

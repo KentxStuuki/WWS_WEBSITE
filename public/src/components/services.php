@@ -17,7 +17,7 @@
                         <img src="${service.imgpath}" 
                             alt="${service.title}" 
                             class="mx-auto mb-4 h-auto rounded-xl object-cover">
-                        <h4 class="fw-bolder mb-2 fs-3 mx-2">${service.title}</h4>
+                        <h4 class="fw-bold mb-2 fs-3 mx-2">${service.title}</h4>
                         <p class="fs-5 mx-2">${service.desc}</p>
                     </div>
                     <div class="text-center px-4">

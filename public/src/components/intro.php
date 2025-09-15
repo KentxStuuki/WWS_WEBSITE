@@ -1,5 +1,5 @@
 <section class="intro_container my-3 text-white overflow-hidden">
-    <h1 class="pt-5 mx-auto text-center px-3 display-5 display-md-3 w-75" data-aos="fade-up" data-aos-duration="1500">
+    <h1 class="pt-5 mx-auto text-center px-3 display-5 display-md-3 w-75 fw-bold" data-aos="fade-up" data-aos-duration="1500">
         WHERE SOLVING MONEY MATTERS IS CONVENIENT AND REWARDING
     </h1>
 
@@ -16,11 +16,11 @@
     <div class="flex-fill d-flex flex-column justify-content-center align-items-center align-items-md-start" data-aos="fade-up" data-aos-duration="1500">
 
         <!-- Desktop Title -->
-       <div class="intro-feature bg-info text-white d-none d-lg-block position-absolute mt-3 p-3 top-0"> <h3>Sign Up to Recieve Rewarding Deals </h3> </div>
+       <div class="intro-feature bg-info text-white d-none d-lg-block position-absolute mt-3 p-3 top-0"> <h3 class="fw-bold">Sign Up to Recieve Rewarding Deals </h3> </div>
 
         <!-- Mobile Title -->
         <div class="intro_feature_mobile bg-info text-white d-block d-lg-none position-absolute top-0 p-3 text-center rounded" >
-            <h3>Sign Up to Receive Rewarding Deals</h3>
+            <h3 class="fw-bold">Sign Up to Receive Rewarding Deals</h3>
         </div>
 
         <!-- Description -->

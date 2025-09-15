@@ -76,9 +76,9 @@
           <div class="card-body">
             <img src="../main/images/contact_section/picon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             <h4 class="text-info fw-bold">Phone Number</h4>
-            <p class="mb-0 text-info"><strong>Toll Free</strong></p>
+            <p class="mb-0 text-info">Toll Free</p>
             <p class="text-dark">800-533-0538</p>
-            <p class="mb-0 text-info"><strong>Phone</strong></p>
+            <p class="mb-0 text-info">Phone</p>
             <p class="text-dark">650-239-3224</p>
           </div>
         </div>
@@ -90,7 +90,7 @@
           <div class="card-body">
             <img src="../main/images/contact_section/eicon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             <h4 class="text-info fw-bold">Email Address</h4>
-            <p class="mb-0 text-info"><strong>Gmail</strong></p>
+            <p class="mb-0 text-info">Gmail</p>
             <p class="text-dark">winwardwealthsystems@gmail.com</p>
           </div>
         </div>
@@ -102,9 +102,9 @@
           <div class="card-body">
             <img src="../main/images/contact_section/Oicon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             <h4 class="text-info fw-bold">Office Hours</h4>
-            <p class="mb-0 text-info"><strong>Days</strong></p>
+            <p class="mb-0 text-info">Days</p>
             <p class="text-dark">Mon - Fri</p>
-            <p class="mb-0 text-info"><strong>Time</strong></p>
+            <p class="mb-0 text-info">Time</p>
             <p class="text-dark">8 am - 5 pm</p>
           </div>
         </div>
@@ -116,6 +116,7 @@
           <div class="card-body">
             <img src="../main/images/contact_section/Licon.png" alt="" class="img-fluid mb-3" style="max-width: 60px;">
             <h4 class="text-info fw-bold">Office Location</h4>
+            <p class="mb-0 text-info">Address</p>
             <p class="mb-0 text-dark">
               156 South Spruce Avenue, Suite 2078<br>
               South San Francisco, San Mateo<br>

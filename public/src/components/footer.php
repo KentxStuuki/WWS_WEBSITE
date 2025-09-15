@@ -43,11 +43,11 @@
         <p class="fw-bold fs-5">Feedback</p>
         <form>
           <div class="mb-3 py-2">
-            <h5>Full Name</h5>
+            <p>Full Name</p>
             <input type="text" class="form-control rounded-2" placeholder="Full name">
           </div>
           <div class="mb-3">
-            <h5>Feedback</h5>
+            <p>Feedback</p>
             <textarea class="form-control rounded-2" rows="2" placeholder="Feedback"></textarea>
           </div>
           <button type="submit" class="btn btn-info text-white w-100 rounded-2">Send</button>
