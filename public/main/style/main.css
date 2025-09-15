@@ -12477,7 +12477,10 @@ span {
 }
 @media (max-width: 426px) {
   .intro_feature {
-    margin-bottom: 20% !important;
+    margin-bottom: -30% !important;
+  }
+  .sep-line {
+    margin-top: 20% !important;
   }
 }
 @media (max-width: 415px) {
@@ -12523,8 +12526,11 @@ span {
   }
 }
 @media (max-width: 376px) {
+  .intro_container {
+    height: 90vh;
+  }
   .intro_feature {
-    margin-bottom: 5% !important;
+    margin-bottom: -48% !important;
   }
   .sep-line {
     margin-top: 15% !important;
@@ -12537,7 +12543,7 @@ span {
 }
 @media (max-width: 321px) {
   .intro_feature {
-    margin-bottom: -20% !important;
+    margin-bottom: -80% !important;
   }
   .sep-line {
     margin-top: 45% !important;
