@@ -1,3 +1,13 @@
+<?php
+function autoVersion($pathFile)
+{
+    if (file_exists($pathFile)) {
+        return $pathFile . '?v=' . filemtime($pathFile);
+    }
+    return $pathFile;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Css And Scass Connection -->
-    <link rel="stylesheet" href="../../public/main/style/main.css">
+    <link rel="stylesheet" href="<?= autoVersion('../../public/main/style/main.css'); ?>">
     <link rel="stylesheet" href="../../public/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../../public/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="../../public/node_modules/aos/dist/aos.css">
